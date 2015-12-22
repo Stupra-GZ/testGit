@@ -1,0 +1,236 @@
+/* 
+* @Author: miles
+* @Date:   2015-12-21 19:33:25
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-12-22 17:11:32
+*/
+body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
+    margin:0; padding:0;
+}
+*{
+    margin:0;padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+input,button{border:none;}
+body{
+    height:3000px;
+    /*background:url(../images/body_bg.png) no-repeat center 96px;*/
+}
+header{
+    width:100%;
+    height:66px;
+    background-color: #3D3D3D;
+}
+.center{
+    margin:30px auto;
+    width:1200px;
+    height:1608px;
+    border:1px solid #DEDEDE;
+}
+.center-left{
+    float:left;
+    width:210px;
+    height:1608px;
+    border-right: 1px solid #DEDEDE;
+}
+.center-right{
+    position:relative;
+    float:left;
+    height:1606px;
+    width:988px;
+    background:#fff;
+}
+#top{
+    padding-left: 15px;
+    position:relative;
+    height:45px;
+    width:988px;
+    border-bottom: 1px solid #DEDEDE;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color:#4D4D4D;
+    background-color: #fff;
+    line-height: 45px;
+}
+.accountSwitching{
+    position:absolute;
+    top:5px;
+    right:20px;
+    width:166px;
+    height:30px;
+    border:1px solid #DEDEDE;
+}
+.accountSwitching button,.accountSwitching input{
+    float:left;
+}
+.accountSwitching input{
+    padding-left: 10px;
+    width:127px;
+    height:28px;
+    border-right: 1px solid #DEDEDE;
+}
+.accountSwitching button{
+    width:28px;
+    height:30px;
+    background:url(../images/button.png) no-repeat center center;
+}
+.targe{
+    margin:20px 0 0 15px;
+    width:955px;
+    height:218px;
+    border:1px solid #DEDEDE;
+}
+.targe-text{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    height:38px;
+    width:955px;
+    line-height: 38px;
+    background:#DEDEDE;
+}
+.targe-center{
+    width:956px;
+    height:136px;
+}
+.marketing,.Reminders,.OrderForm,.GrandTotal{
+    padding:20px 0 20px 16px;
+    float:left;
+    margin-left: 20px;
+    width:212px;
+    height:120px;
+    color:#fff;
+
+}
+.marketing{
+    
+    background:#FF5454;
+}
+.Reminders{
+    background:#23B7E5;
+}
+.OrderForm{
+    background:#FABB3D;
+}
+.GrandTotal{
+    background:#5D9CEC;
+}
+.marketing h3,
+.Reminders h3,
+.OrderForm h3,
+.GrandTotal h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.success{
+    font-size: 14px;
+    padding-bottom:10px;
+}
+.send{
+
+    padding-bottom: 2px;
+    font-size: 12px;
+}
+.dataAnalysis{
+    margin:30px auto;
+    width:955px;
+    height:1250px;
+    border:1px solid #DEDEDE; 
+}
+.Added{
+    width:100%;
+    height:39px;
+    background:#F7F7F7;
+    border-bottom: 1px solid #DEDEDE;
+}
+.Added ul li{
+    float:left;
+    width:86px;
+    text-align: center;
+    line-height: 39px;
+}
+.Added ul li.current{
+    background:#0188CC;
+    color:#FFFFFF;
+}
+.timer{
+    position:relative;
+    height:65px;
+    width:100%;
+    background:#F7F7F7;
+}
+.timer span{
+    position:absolute;
+    left:20px;
+    top:24px;
+}
+.timer ul{
+    position:absolute;
+    left:70px;
+    top:16px;
+    border:1px solid #DEDEDE;
+}
+.timer ul li{
+    padding:8px 43px;
+    margin-left: -1px;
+    float:left;
+    border-left: 1px solid #DEDEDE;
+}
+.timer ul li.timerCurrent{
+    color:#0188CC;
+}
+#sel{
+    border:none;
+}
+.trend{
+    height:354px;
+    width:100%;
+    background:red;
+}
+.Piece{
+    display:inline-block;
+    margin:20px 0 0 20px;
+    width:4px;
+    height:14px;
+    background:#0188CC;
+}
+table,td{
+    border:1px solid #ccc; border-collapse:collapse;
+}
+#tab{
+    margin:20px auto;
+    text-align: center;
+    line-height: 36px;
+}
+.page{
+    position:absolute;
+    left:50%;
+    bottom:100px;
+    margin-left: -131px;
+    width:262px;
+    height:30px;
+}
+.page li{
+    float:left;
+    margin-left: -1px;
+    width:26px;
+    height:28px;
+    text-align: center;
+    line-height:28px;
+    border:1px solid #DEDEDE;
+}
+.page li.pageCurrent{
+    background:#0188CC;
+}
+.page li a{
+    text-decoration: none;
+    color:#4D4D4D;
+}
+.page li button{
+    background:#F7F7F7;
+}
+.page li:nth-child(8){
+    border:none;
+
+}
