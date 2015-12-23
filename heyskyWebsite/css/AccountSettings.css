@@ -1,0 +1,179 @@
+/* 
+* @Author: miles
+* @Date:   2015-12-21 19:33:25
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-12-23 11:27:38
+*/
+body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
+    margin:0; padding:0;
+}
+*{
+    margin:0;padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+input,button{border:none;}
+body{
+    height:3000px;
+    /*background:url(../images/body_bg.png) no-repeat center 96px;*/
+}
+header{
+    width:100%;
+    height:66px;
+    background-color: #3D3D3D;
+}
+.center{
+    margin:30px auto;
+    width:1200px;
+    height:910px;
+    border:1px solid #DEDEDE;
+}
+/*左边*/
+.center-left{
+    float:left;
+    width:210px;
+    height:910px;
+    border-right: 1px solid #DEDEDE;
+}
+/*右边*/
+.center-right{
+    position:relative;
+    float:left;
+    height:908px;
+    width:988px;
+    background:#fff;
+}
+/*账号设置*/
+.SetUp{
+    width:100%;
+    height:45px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.SetUp span{
+    display: inline-block;
+    margin:15px 0 0 16px;
+}
+.logo,.PhoneVerification{
+    position:relative;
+    width:100%;
+    height:228px;
+}
+#logoName{
+    position:absolute;
+    left:66px;
+    top:54px;
+}
+#logoPic{
+    position:absolute;
+    left:132px;
+    top:28px;
+    width:57px;
+    height:57px;
+    background:url(../images/logo.png) no-repeat;
+}
+/*公司名称*/
+#companyName,#SecurityCode{
+    position:absolute;
+    left:50px;
+    top:120px;
+}
+#companyName input{
+    padding-left: 10px;
+    height:28px;
+    border:1px solid #DEDEDE;
+}
+/*保存按钮*/
+#btn,#passwordBtn{
+    position:absolute;
+    left:170px;
+    bottom:20px;
+    width:88px;
+    height:36px;
+    background:#0188CC;
+    color:#FFFFFF;
+}
+/*虚线*/
+#dottedLine{
+    display:block;
+    margin:0 0 0 18px;
+    width:955px;
+    height:1px;
+    border-bottom: 1px dashed #DEDEDE;
+}
+/*手机号*/
+#phoneNumber{
+    position:absolute;
+    left:66px;
+    top:28px;
+}
+#phoneNumber input{
+    padding-left: 10px;
+    height:28px;
+    border:1px solid #DEDEDE;
+}
+/*获取验证码按钮*/
+#verificationBtn{
+    position:absolute;
+    top:65px;
+    left:122px;
+    width:120px;
+    height:30px;
+    background:#F1881A;
+    color:#FFFFFF;
+}
+/*验证码*/
+#SecurityCode{
+    left:70px;
+}
+#SecurityCode input{
+    width:120px;
+    height:28px;
+    border:1px solid #DEDEDE;
+}
+/*密码*/
+#password{
+    position:relative;
+    width:100%;
+    height:370px;
+}
+/*登录密码*/
+#loginPassword{
+    position:absolute;
+    left:50px;
+    top:30px;
+}
+#loginPassword input{
+    padding-left: 10px;
+    width:110px;
+    height:30px;
+}
+/*当前密码*/
+#currentPassword{
+    position:absolute;
+    left:46px;
+    top:74px;
+}
+/*新密码*/
+#nuwPassword{
+    position:absolute;
+    left:62px;
+    top:126px;
+}
+#currentPassword input,
+#nuwPassword input,
+#confirmPassword input{
+    width:220px;
+    height:28px;
+    border:1px solid #DEDEDE;
+}
+/*确认密码*/
+#confirmPassword{
+    position:absolute;
+    left:46px;
+    top:172px;
+}
+/*密码保存按钮*/
+#passwordBtn{
+    bottom:112px;
+}

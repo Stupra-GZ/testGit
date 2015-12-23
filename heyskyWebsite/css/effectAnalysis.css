@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-22 17:11:32
+* @Last Modified time: 2015-12-23 09:23:30
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -29,12 +29,14 @@ header{
     height:1608px;
     border:1px solid #DEDEDE;
 }
+/*左边*/
 .center-left{
     float:left;
     width:210px;
     height:1608px;
     border-right: 1px solid #DEDEDE;
 }
+/*右边*/
 .center-right{
     position:relative;
     float:left;
@@ -42,6 +44,7 @@ header{
     width:988px;
     background:#fff;
 }
+/*数据分析*/
 #top{
     padding-left: 15px;
     position:relative;
@@ -54,6 +57,7 @@ header{
     background-color: #fff;
     line-height: 45px;
 }
+/*账号切换*/
 .accountSwitching{
     position:absolute;
     top:5px;
@@ -71,17 +75,20 @@ header{
     height:28px;
     border-right: 1px solid #DEDEDE;
 }
+/*账号切换按钮*/
 .accountSwitching button{
     width:28px;
     height:30px;
     background:url(../images/button.png) no-repeat center center;
 }
+/*指标*/
 .targe{
     margin:20px 0 0 15px;
     width:955px;
     height:218px;
     border:1px solid #DEDEDE;
 }
+/*最近30天指标字符串*/
 .targe-text{
     margin-bottom: 30px;
     padding-left: 10px;
@@ -94,6 +101,7 @@ header{
     width:956px;
     height:136px;
 }
+/*详细指标数据*/
 .marketing,.Reminders,.OrderForm,.GrandTotal{
     padding:20px 0 20px 16px;
     float:left;
@@ -103,16 +111,20 @@ header{
     color:#fff;
 
 }
+/*营销成功率*/
 .marketing{
     
     background:#FF5454;
 }
+/*催付成功率*/
 .Reminders{
     background:#23B7E5;
 }
+/*订单纠纷率*/
 .OrderForm{
     background:#FABB3D;
 }
+/*累计发送短信*/
 .GrandTotal{
     background:#5D9CEC;
 }
@@ -132,18 +144,21 @@ header{
     padding-bottom: 2px;
     font-size: 12px;
 }
+/*发送数量*/
 .dataAnalysis{
     margin:30px auto;
     width:955px;
     height:1250px;
     border:1px solid #DEDEDE; 
 }
+/*数据*/
 .Added{
     width:100%;
     height:39px;
     background:#F7F7F7;
     border-bottom: 1px solid #DEDEDE;
 }
+/*数据列表*/
 .Added ul li{
     float:left;
     width:86px;
@@ -154,17 +169,20 @@ header{
     background:#0188CC;
     color:#FFFFFF;
 }
+/*时间*/
 .timer{
     position:relative;
     height:65px;
     width:100%;
     background:#F7F7F7;
 }
+/*时间字符串*/
 .timer span{
     position:absolute;
     left:20px;
     top:24px;
 }
+/*时间列表*/
 .timer ul{
     position:absolute;
     left:70px;
@@ -177,17 +195,21 @@ header{
     float:left;
     border-left: 1px solid #DEDEDE;
 }
+/*当前选中列表*/
 .timer ul li.timerCurrent{
     color:#0188CC;
 }
+/*选择表单*/
 #sel{
     border:none;
 }
+/*趋势*/
 .trend{
     height:354px;
     width:100%;
     background:red;
 }
+/*蓝色小块*/
 .Piece{
     display:inline-block;
     margin:20px 0 0 20px;
@@ -195,6 +217,7 @@ header{
     height:14px;
     background:#0188CC;
 }
+/*详细数据表格*/
 table,td{
     border:1px solid #ccc; border-collapse:collapse;
 }
@@ -203,6 +226,7 @@ table,td{
     text-align: center;
     line-height: 36px;
 }
+/*页数*/
 .page{
     position:absolute;
     left:50%;
@@ -211,6 +235,7 @@ table,td{
     width:262px;
     height:30px;
 }
+/*页数列表*/
 .page li{
     float:left;
     margin-left: -1px;
@@ -220,6 +245,7 @@ table,td{
     line-height:28px;
     border:1px solid #DEDEDE;
 }
+/*当前页*/
 .page li.pageCurrent{
     background:#0188CC;
 }
