@@ -1,3 +1,15 @@
+/*
+把它复制到特定网页的css表里，根据右边页面内容的高度给它高度}
+*/
+.left-nav-box{
+    position: relative;
+    height: 1212px;
+    border-right: 1px solid #dedede;
+}
+.content-box{
+    border: 1px solid #dedede;
+    background-color: #fff;
+}
 .width1200{
     width: 1200px;
     margin-left: auto;
@@ -18,8 +30,17 @@ a{
 .mt20{
     margin-top: 20px;
 }
+.mt28{
+    margin-top: 28px;
+}
+.ml10{
+    margin-left: 10px;
+}
 .ml15{
     margin-left: 15px;
+}
+.mr5{
+    margin-right: 5px;
 }
 .mr20{
     margin-right: 20px;
@@ -32,6 +53,24 @@ a{
 }
 .bt{
     border-top: 1px solid #dedede;
+}
+.b-no{
+    border:none;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+.fz12{
+    font-size: 12px;
+}
+.fz36{
+    font-size: 36px;
+}
+.list-no{
+    list-style: none;
 }
 .list2-self-adaption{
     display: table-cell;
@@ -47,6 +86,9 @@ a{
 }
 .ri{
     float: right;
+}
+.ff-s{
+    font-family: "宋体";
 }
 
 /*页眉（header）*/
@@ -98,33 +140,29 @@ body{
 }
 
 /*左侧导航left-nav*/
-.left-nav-box{
-    position: relative;
-    min-height: 1012px;
-    border: 1px solid #dedede;
-    background-color: #fff;
-}
 .vertical-nav{
     width: 208px;
     padding-top: 15px;
 }
-.vertical-nav a{
+.vertical-nav a,.selected,.vertical-nav dd span{
     display: block;
-    font-size: 90%;
+    color: #4c4c4c;
 }
-.vertical-nav a:hover{
+.vertical-nav a:hover,.selected,.vertical-nav dd span{
     background-color: #0188cc;
     color: #fff;
 }
+.vertical-nav dd{
+    line-height: 34px;
+    font-size: 14px;
+}
 .vertical-nav dt{
-    padding: 15px 0 13px;
+    padding-top: 15px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 15px;
-    color: #b3b3b3;
-}
-.vertical-nav dd a{
-    padding: 10px 0 10px 0;
-    color: #4d4d4d;
+    color: #b2b2b2;
+    line-height: 35px;
 }
 .vertical-nav dt,.vertical-nav dd{
     text-indent: 57px;
@@ -133,7 +171,7 @@ body{
     display: inline-block;
     position: absolute;
     height: 16px;
-    margin: 0px -27px;
+    margin: 10px 0 0 -27px;
     background-image: url(../images/header-nav-footer/nav-smallIcon.png);
 }
 .home-smallIcon{
