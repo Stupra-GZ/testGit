@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-23 09:23:30
+* @Last Modified time: 2015-12-26 17:06:06
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -14,10 +14,6 @@ ul,ol{
     list-style: none;
 }
 input,button{border:none;}
-body{
-    height:3000px;
-    /*background:url(../images/body_bg.png) no-repeat center 96px;*/
-}
 header{
     width:100%;
     height:66px;
@@ -58,7 +54,7 @@ header{
     line-height: 45px;
 }
 /*账号切换*/
-.accountSwitching{
+.account-switching{
     position:absolute;
     top:5px;
     right:20px;
@@ -66,20 +62,36 @@ header{
     height:30px;
     border:1px solid #DEDEDE;
 }
-.accountSwitching button,.accountSwitching input{
+.account-switching button,.account-switching input{
     float:left;
 }
-.accountSwitching input{
+.account-switching input{
     padding-left: 10px;
     width:127px;
     height:28px;
     border-right: 1px solid #DEDEDE;
 }
 /*账号切换按钮*/
-.accountSwitching button{
-    width:28px;
+.account-switching button{
+    position:relative;
+    width:37px;
     height:30px;
     background:url(../images/button.png) no-repeat center center;
+}
+#account-num-select{
+    display:none;
+    position:absolute;
+    left:93px;
+    top:30px;
+}
+#account-num-select ul li{
+    height:28px;
+    line-height: 28px;
+    background-color: #FFFFFF;
+    cursor:pointer;
+}
+#account-num-select ul li:hover{
+    background-color: #0188CC;
 }
 /*指标*/
 .targe{
@@ -102,7 +114,7 @@ header{
     height:136px;
 }
 /*详细指标数据*/
-.marketing,.Reminders,.OrderForm,.GrandTotal{
+.marketing,.reminders,.order-form,.grand-total{
     padding:20px 0 20px 16px;
     float:left;
     margin-left: 20px;
@@ -117,21 +129,21 @@ header{
     background:#FF5454;
 }
 /*催付成功率*/
-.Reminders{
+.reminders{
     background:#23B7E5;
 }
 /*订单纠纷率*/
-.OrderForm{
+.order-form{
     background:#FABB3D;
 }
 /*累计发送短信*/
-.GrandTotal{
+.grand-total{
     background:#5D9CEC;
 }
 .marketing h3,
-.Reminders h3,
-.OrderForm h3,
-.GrandTotal h3{
+.reminders h3,
+.order-form h3,
+.grand-total h3{
     margin-bottom: 10px;
     font-size: 30px;
 }
@@ -145,27 +157,28 @@ header{
     font-size: 12px;
 }
 /*发送数量*/
-.dataAnalysis{
+.data-analysis{
     margin:30px auto;
     width:955px;
     height:1250px;
     border:1px solid #DEDEDE; 
 }
 /*数据*/
-.Added{
+.added{
     width:100%;
     height:39px;
     background:#F7F7F7;
     border-bottom: 1px solid #DEDEDE;
 }
 /*数据列表*/
-.Added ul li{
+.added ul li{
     float:left;
     width:86px;
     text-align: center;
     line-height: 39px;
+    cursor:pointer;
 }
-.Added ul li.current{
+.added ul li.current{
     background:#0188CC;
     color:#FFFFFF;
 }
@@ -194,13 +207,19 @@ header{
     margin-left: -1px;
     float:left;
     border-left: 1px solid #DEDEDE;
+    cursor: pointer;
+}
+.timer ul li:last-child{
+    padding:0;
 }
 /*当前选中列表*/
-.timer ul li.timerCurrent{
+.timer ul li.timer-current{
     color:#0188CC;
 }
 /*选择表单*/
 #sel{
+    padding:0 10px;
+    height:32px;
     border:none;
 }
 /*趋势*/
@@ -246,17 +265,22 @@ table,td{
     border:1px solid #DEDEDE;
 }
 /*当前页*/
-.page li.pageCurrent{
+.page li.page-current{
     background:#0188CC;
 }
 .page li a{
     text-decoration: none;
     color:#4D4D4D;
 }
-.page li button{
-    background:#F7F7F7;
-}
-.page li:nth-child(8){
+.page li:nth-child(7){
     border:none;
-
+}
+#btn-left,#btn-right{
+    position:absolute;
+    width:26px;
+    height:28px;
+    border:1px solid #DEDEDE;
+}
+#btn-left{
+    left:-26px;
 }

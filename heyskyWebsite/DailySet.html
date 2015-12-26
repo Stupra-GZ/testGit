@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="./css/DailySet.css" />
     <script src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/common.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/DailySet.js"></script>
 </head> 
 <body>
     <header></header><!--头部 -->
@@ -53,55 +53,64 @@
         </div>
         <div class="center-right">
             <!-- 账号绑定 -->
-            <div class="SetUp">
+            <div class="set-up">
                 <span>日报设置</span>
             </div>
             <!-- 店铺1 -->
             <div id="shop">
-                <div class="shopName">
+                <div class="shop-name">
                     <span>店铺cn092023232</span>
-                    <div id="phonNumber">接收号码:
-                        <input type="text" value="13459227995" />
-                        <span>修改</span>
-                    </div>
-                    <div class="subscription">
+                </div>
+                <div id="phon-number">接收号码:
+                    <input type="text" value="13459227995" id="txt"/>
+                    <span id="changes" >修改</span>
+                </div>
+                <div class="subscription">
                         订阅日报：
-                        <input type="checkbox" checked/>昨日订单数
-                        <input type="checkbox" checked/>昨日订单金额
-                        <input type="checkbox" checked/>短信发送量 
-                    </div>
+                    <input type="checkbox" checked id="che-one"/>
+                    <label for="che-one">昨日订单数</label>
+                    <input type="checkbox" checked id="che-two"/>
+                    <label for="che-two">昨日订单数</label>
+                    <input type="checkbox" checked id="che-three"/>
+                    <label for="che-three">昨日订单数</label>
                 </div>
             </div>
             <!-- 店铺2 -->
             <div id="shop">
-                <div class="shopName">
+                <div class="shop-name">
                     <span>店铺cn092023232</span>
-                    <div id="phonNumber">接收号码:
-                        <input type="text" id="num" />
-                        <span>保存</span>
-                    </div>
-                    <div class="subscription">
+                </div>
+                <div id="phon-number">接收号码:
+                    <input type="text" id="num" />
+                    <span id="save">保存</span>
+                </div>
+                <div class="subscription">
                         订阅日报：
-                        <input type="checkbox" />昨日订单数
-                        <input type="checkbox" />昨日订单金额
-                        <input type="checkbox" />短信发送量 
-                    </div>
+                    <input type="checkbox" id="che-for" />
+                    <label for="che-for">昨日订单数</label>
+                    <input type="checkbox" id="che-fiv" />
+                    <label for="che-fiv">昨日订单金额</label>
+                    <input type="checkbox" id="che-six" />
+                    <label for="che-six">短信发送量</label> 
                 </div>
             </div>
             <!-- 店铺3 -->
             <div id="shop">
-                <div class="shopName">
+                <div class="shop-name">
                     <span>店铺cn092023232</span>
-                    <div id="phonNumber">接收号码:
-                        <input type="text" value="13459227995" />
-                        <span>修改</span>
-                    </div>
-                    <div class="subscription">
+                </div>
+                <div id="phon-number">接收号码:
+                    <input type="text" value="13459227995" id="txt-two" />
+                    <span id="changes-two">修改</span>
+                </div>
+                <div class="subscription">
                         订阅日报：
-                        <input type="checkbox" checked/>昨日订单数
-                        <input type="checkbox" />昨日订单金额
-                        <input type="checkbox" />短信发送量 
-                    </div>
+                    <input type="checkbox" checked id="che-seven"/>
+                    <label for="che-seven">昨日订单数</label>
+                    <input type="checkbox" id="che-eight" />
+                    <label for="che-eight">昨日订单金额</label>
+                    <input type="checkbox" id="che-night" />
+                    <label for="che-night">短信发送量</label>
                 </div>
             </div>
         </div>

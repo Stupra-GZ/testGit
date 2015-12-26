@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="./css/AccountSettings.css" />
     <script src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/common.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/AccountSetting.js"></script>
 </head> 
 <body>
     <header></header><!--头部 -->
@@ -59,8 +59,9 @@
             <div class="logo">
                 <span id="logoName">logo:</span>
                 <div id="logoPic"></div>
-                <div id="companyName">公司名称:
-                    <input type="text" value="us1103599026" />
+                <div id="companyName">
+                    <label for="txt">公司名称:</label>
+                    <input type="text" value="us1103599026" id="txt" />
                 </div>
                 <button id="btn">保存</button>
             </div>
@@ -68,12 +69,14 @@
             <span id="dottedLine"></span>
             <!-- 手机验证 -->
             <div class="PhoneVerification">
-                <div id="phoneNumber">手机号:
-                    <input type="text" value="134599227995" />
+                <div id="phoneNumber">
+                    <label for="txt-num">手机号:</label>
+                    <input type="text" value="134599227995" id="txt-num" />
                 </div>
                 <button id="verificationBtn">免费获取验证码</button>
-                <div id="SecurityCode">验证码:
-                    <input type="text" />
+                <div id="SecurityCode">
+                    <label for="security-code">验证码:</label>
+                    <input type="text" id="security-code"/>
                 </div>
                 <button id="btn">保存</button>
             </div>
@@ -81,17 +84,21 @@
             <span id="dottedLine"></span>
             <!-- 密码 -->
             <div id="password">
-                <div id="loginPassword">登录密码:
-                    <input type="password" value="123456" />
+                <div id="loginPassword">
+                    <label for="login-password">登录密码:</label>
+                    <input type="password" value="123456" id="login-password" />
                 </div>
-                <div id="currentPassword">当前密码:
-                    <input type="password" />
+                <div id="currentPassword">
+                    <label for="current-password">当前密码:</label>
+                    <input type="password" id="current-password" />
                 </div>
-                <div id="nuwPassword">新密码:
-                    <input type="password" />
+                <div id="nuwPassword">
+                    <label for="nuw-password">新密码:</label>
+                    <input type="password" id="nuw-password" />
                 </div>
-                <div id="confirmPassword">确认密码:
-                    <input type="password" />
+                <div id="confirmPassword">
+                    <label for="confirm-password">确认密码:</label>
+                    <input type="password" id="confirm-password" />
                 </div>
                 <button id="passwordBtn">保存</button>
             </div>

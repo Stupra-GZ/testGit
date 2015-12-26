@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="./css/effectAnalysis.css" />
     <script src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/common.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/effectAnalysis.js"></script>
 </head> 
 <body>
     <header></header><!--头部 -->
@@ -54,9 +54,17 @@
         <div class="center-right">
             <div id="top"><!-- 数据分析 -->
                 数据分析
-                <div class="accountSwitching"><!-- 账号 -->
-                    <input type="text" value="切换账号"/>
-                    <button></button>
+                <div class="account-switching"><!-- 账号 -->
+                    <input type="text" value="切换账号" id="account-txt"/>
+                    <button id="switching-btn"></button>
+                    <div id="account-num-select">
+                        <ul>
+                            <li>123456</li>
+                            <li>931283</li>
+                            <li>495515751</li>
+                            <li>9282181</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="targe"><!-- 指标 -->
@@ -68,19 +76,19 @@
                         <p class="send">营销短信发送2303条</p>
                         <p class="send">营销产生订单209笔</p>
                     </div>
-                    <div class="Reminders">
+                    <div class="reminders">
                         <h3>15.23%</h3>
                         <p class="success">催付成功率</p>
                         <p class="send">催付短信发送2103条</p>
                         <p class="send">催付有效订单233笔</p>
                     </div>
-                    <div class="OrderForm">
+                    <div class="order-form">
                         <h3>1.3%</h3>
                         <p class="success">订单纠纷率</p>
                         <p class="send">提醒短信发送1103条</p>
                         <p class="send">最终成交订单133笔</p>
                     </div>
-                    <div class="GrandTotal">
+                    <div class="grand-total">
                         <h3>2,993条</h3>
                         <p class="success">累计发送短信</p>
                         <p class="send">累计订单11032笔</p>
@@ -89,8 +97,8 @@
                 </div>   
             </div>
             <!-- 发送数量 -->
-            <div class="dataAnalysis">
-                <div class="Added">
+            <div class="data-analysis">
+                <div class="added">
                     <ul>
                         <li>数据分析</li>
                         <li class="current">发送数量</li>
@@ -104,7 +112,7 @@
                     <ul>
                         <li>7日</li>
                         <li>14日</li>
-                        <li class="timerCurrent">30日</li>
+                        <li class="timer-current">30日</li>
                         <li>
                             <select name="" id="sel" size="1">
                                 <option value="2015-09-30至2015-10-29">2015-09-30至2015-10-29
@@ -222,13 +230,11 @@
             </table>  
             </div>
             <div class="page">
+                <button id="btn-left">
+                    <img src="images/Triangle_r1_c1.png" alt="" />
+                </button>
                 <ul>
-                    <li>
-                        <button>
-                            <img src="images/Triangle_r1_c1.png" alt="" />
-                        </button>
-                    </li>
-                    <li class="pageCurrent"><a href="#">1</a></li>
+                    <li class="page-current"><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                     <li><a href="#">4</a></li>
@@ -236,12 +242,10 @@
                     <li><a href="#">6</a></li>
                     <li><a href="#">...</a></li>
                     <li><a href="#">20</a></li>
-                    <li>
-                        <button>
-                            <img src="images/Triangle_r1_c3.png" alt="" />
-                        </button>
-                    </li>
                 </ul>
+                <button id="btn-right">
+                    <img src="images/Triangle_r1_c3.png" alt="" />
+                </button>
             </div>
         </div>
     </div>

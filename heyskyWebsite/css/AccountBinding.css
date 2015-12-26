@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-23 14:54:20
+* @Last Modified time: 2015-12-26 18:25:10
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -14,10 +14,6 @@ ul,ol{
     list-style: none;
 }
 input,button{border:none;}
-body{
-    height:3000px;
-    /*background:url(../images/body_bg.png) no-repeat center 96px;*/
-}
 header{
     width:100%;
     height:66px;
@@ -95,7 +91,11 @@ header{
     left:55px;
 }
 #name{
+    padding-left: 10px;
+    width:100px;
+    height:30px;
     left:408px;
+    top:2px;
 }
 #edit,
 #editShopName,
@@ -108,7 +108,7 @@ header{
 }
 /*保存店名*/
 #iptName{
-    padding-left: 3px;
+    padding-left: 10px;
     position:absolute;
     left:408px;
     top:5px;
@@ -118,7 +118,7 @@ header{
 }
 .signature{
     position:absolute;
-    left:547px;
+    left:592px;
     top:320px;
     font-size: 12px;
 }
