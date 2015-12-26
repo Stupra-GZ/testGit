@@ -1,3 +1,6 @@
+body{
+    background: url(../images/header-nav-footer/background.png);
+}
 .home-small-icon,.noti-fications i,.battlelog-details i{
 	position: absolute;
 	background-image: url(../images/home/home-small-icon.png);
@@ -12,7 +15,7 @@
 }
 /*半透明遮照层*/
 .protective-layer{
-	display: none;
+	/*display: none;*/
 	position: fixed;
 	top: 0;
 	left: 0;
