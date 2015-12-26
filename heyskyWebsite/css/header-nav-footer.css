@@ -102,6 +102,46 @@ a{
     font-family: "宋体";
 }
 
+/*右侧固定定位移动栏*/
+.online-consultant-box{
+    position: fixed;
+    right: 0;
+    font-size: 12px;
+    text-align: center;
+}
+.online-consultant-box li{
+    position: relative;
+    width: 60px;
+    height: 69px;
+    margin-bottom: 2px;
+    border:1px solid #ccc;
+    padding-top: 45px;
+}
+.online-consultant-box i{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    background-image: url(../images/header-nav-footer/fix-box-img.png);
+}
+.online-consultant{
+    width: 32px;
+    height: 28px;
+    margin-left: -16px;
+    background-position: 0 0;
+}
+.qq-service{
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    background-position: 0px -40px;
+}
+.user-feedback{
+    width: 24px;
+    height: 28px;
+    margin-left: -12px;
+    background-position: 0px -80px;
+}
 /*页眉（header）*/
 
 .header{

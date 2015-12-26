@@ -78,6 +78,13 @@
             </div>
         </div>
     </div>
+    <div class="online-consultant-box">
+            <ul class="list-no">
+                <li><i class="online-consultant"></i>在线咨询</li>
+                <li><i class="qq-service"></i>QQ客服</li>
+                <li><i class="user-feedback"></i>用户反馈</li>
+            </ul>
+        </div>
     <div class="width1200 mt15 clear content-box">
         <div class="le left-nav-box">
             <dl class="vertical-nav">
@@ -124,7 +131,7 @@
                     </div>
                 </div>
                 <div class="mt28 c-4d">
-                    <ul class="list-no noti-fications">
+                    <ul class="list-no noti-fications" id="noti-fications">
                         <li>迎双11大促，马上参与1元秒杀活动<i></i></li>
                         <li>您的未付款订单较多，建议开通催付提醒哦<i></i></li>
                     <ul>
@@ -167,4 +174,14 @@
         <div><a class="pr15 br" href="#">产品报价</a><a class="ml15 pr15 br" href="#">常见问题</a><a class="ml15 pr15 br" href="#">隐私条款</a><a class="ml15" href="#">联系我们</a></div>
         <div class="mt10">2015 © 厦门闪通网络技术有限公司(客服电话：0592-3752092)</div>
     </div>
+    <script>
+        (function () {
+           'use strict';
+            $(document).ready(function () {
+                $('#noti-fications i').click(function(event) {
+                    $(this).parent().css('display', 'none');
+                });
+            });
+        })();
+    </script>
 </body>

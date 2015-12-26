@@ -1,3 +1,5 @@
+
+
 /*引导页(lead)*/
 em{
     font-style: normal;
@@ -110,20 +112,7 @@ em{
 /*营销*/
 .marketing-box,.subtool-box{
     position: relative;
-    background-color: #fff;
     color: #4d4d4d;
-}
-.online-consultant{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 57px;
-    height: 69px;
-    border:1px solid #ccc;
-    padding-top: 45px;
-    background: url(../images/lead/consult-icon.png) no-repeat 17px 10px;
-    font-size: 12px;
-    text-align: center;
 }
 .marketing-box h2,.advantage-box h2,.subtool-box h2,.marketing-case h2{
     padding-top: 60px;
