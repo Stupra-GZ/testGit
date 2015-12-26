@@ -38,6 +38,9 @@ a{
 .mt28{
     margin-top: 28px;
 }
+.mt40{
+    margin-top: 40px;
+}
 .ml10{
     margin-left: 10px;
 }
@@ -145,6 +148,7 @@ a{
 /*页眉（header）*/
 
 .header{
+    height: 66px;
     border: 1px solid #464646;
     background-color: #3d3d3d;
 }
