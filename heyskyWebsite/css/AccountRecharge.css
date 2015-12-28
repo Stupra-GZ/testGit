@@ -2,109 +2,117 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-25 10:57:53
+* @Last Modified time: 2015-12-28 21:49:32
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
-    margin:0; padding:0;
+    margin: 0; padding: 0;
 }
 *{
-    margin:0;padding:0;
+    margin: 0;padding: 0;
 }
 ul,ol{
     list-style: none;
 }
-input,button{border:none;}
+
+input,button{
+    border: none;
+}
 header{
-    width:100%;
-    height:66px;
+    width: 100%;
+    height: 66px;
     background-color: #3D3D3D;
 }
 .center{
-    margin:30px auto;
-    width:1200px;
-    height:910px;
-    border:1px solid #DEDEDE;
+    margin: 30px auto;
+    width: 1200px;
+    height: 910px;
+    border: 1px solid #DEDEDE;
 }
 /*左边*/
 .center-left{
-    float:left;
-    width:210px;
-    height:910px;
+    float: left;
+    width: 210px;
+    height: 910px;
     border-right: 1px solid #DEDEDE;
 }
 /*右边*/
 .center-right{
-    position:relative;
-    float:left;
-    height:908px;
-    width:988px;
-    background:#fff;
+    position: relative;
+    float: left;
+    height: 908px;
+    width: 988px;
+    background: #fff;
 }
 /*账号设置*/
 .SetUp{
-    width:100%;
-    height:45px;
+    width: 100%;
+    height: 45px;
     border-bottom: 1px solid #DEDEDE;
 }
 .SetUp span{
     display: inline-block;
-    margin:15px 0 0 16px;
+    margin: 21px 0 0 16px;
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
 }
 /*充值服务*/
-.recharge{
-    margin:0 auto;
-    position:relative;
-    width:955px;
-    height:50px;
+.recharge-one{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 955px;
+    height: 50px;
     border-bottom: 1px solid #F1881A;
+    font-family: "宋体";
 }
 /*充值服务列表*/
-.recharge ul{
-    position:absolute;
-    left:36px;
-    bottom:-1px;
+.recharge-one ul{
+    position: absolute;
+    left: 36px;
+    bottom: -1px;
 }
-.recharge ul li{
-    float:left;
-    width:104px;
-    height:30px;
+.recharge-one ul li{
+    float: left;
+    width: 104px;
+    height: 30px;
     text-align: center;
     line-height: 30px;
     cursor: pointer;
 }
 /*充值服务列表当前选中*/
-.recharge ul li.current{
-    border:1px solid #F1881A;
+.recharge-one ul li.current{
+    border: 1px solid #F1881A;
     border-bottom: 1px solid #FFFFFF;
-    color:#F1881A;
+    color: #F1881A;
 }
 
 .service{
-    margin:0 auto;
-    width:955px;
-    height:380px;
+    margin: 0 auto;
+    width: 955px;
+    height: 395px;
     border-bottom: 1px dashed #DEDEDE;
 }
 /*充值内容*/
 .Preferential{
-    margin:30px 0 0 16px;
-    float:left;
-    position:relative;
-    width:300px;
-    height:326px;
-    border:1px solid #00AEFF;
+    margin: 30px 0 0 16px;
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 326px;
+    border: 1px solid #00AEFF;
 }
 .yelloBox{
-    position:absolute;
-    left:-6px;
-    top:6px;
-    width:300px;
-    height:326px;
-    border:1px solid #F1881A;
+    position: absolute;
+    left: -6px;
+    top: 6px;
+    width: 300px;
+    height: 326px;
+    border: 1px solid #F1881A;
 }
 .Preferential h3{
     font-size: 30px;
-    color:#00AEFF;
+    color: #00AEFF;
     text-align: center;
     line-height: 114px;
 }
@@ -112,90 +120,101 @@ header{
     margin-bottom: 20px;
     font-size: 20px;
     text-align: center;
-    color:#F1881A;
+    color: #F1881A;
 }
 .Preferential span{
-    padding-left: 15px;
+    padding-left: 22px;
     margin-top: 20px;
     line-height: 22px;
+    font-size: 14px;
 }
 .Preferential .three{
-    padding-left: 40px;
+    padding-left: 45px;
 }
 /*充值按钮*/
 #btnOne{
-    position:absolute;
-    left:50%;
+    position: absolute;
+    left: 50%;
     margin-left: -60px;
-    bottom:30px;
-    width:120px;
-    height:32px;
-    background:#F1881A;
-    color:#FFFFFF;
-    cursor:pointer;
+    bottom: 30px;
+    width: 120px;
+    height: 32px;
+    background: #F1881A;
+    font-family: "微软雅黑";
+    color: #FFFFFF;
+    cursor: pointer;
 }
 /*限时图片*/
 .LimitedTime{
-    position:absolute;
-    width:121px;
-    height:43px;
-    left:-7px;
+    position: absolute;
+    width: 121px;
+    height: 43px;
+    left: -7px;
     top: -15px;
 }
 #tab-one{
     text-align: center;
     line-height: 30px;
     margin-top: 30px;
+    font-family: "宋体";
     font-size: 12px;
 }
 #recharge-btn{
-    width:80px;
-    height:26px;
-    background:#0188CC;
-    color:#FFFFFF;
-    cursor:pointer;
+    width: 66px;
+    height: 24px;
+    background: #0188CC;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .box{
-    position:absolute;
-
+    position: absolute;
 }
 /*自定义充值金额*/
 .money{
-    margin:30px auto;
-    width:955px;
-    height:160px;
+    margin: 38px auto;
+    width: 955px;
+    height: 160px;
+    font-size: 14px;
+}
+.money label{
+    font-size: 16px;
+    font-weight: bold;
 }
 .money input{
     padding-left: 10px;
-    height:28px;
-    border:1px solid #DEDEDE;
+    height: 28px;
+    border: 1px solid #DEDEDE;
 }
 #atOnceBtn{
-    margin-left: 10px;
-    width:94px;
-    height:30px;
-    background:#0188CC;
-    color:#FFFFFF;
-    cursor:pointer;
+    margin-left: 20px;
+    width: 94px;
+    height: 30px;
+    background: #0188CC;
+    font-family: "微软雅黑";
+    color: #FFFFFF;
+    cursor: pointer;
 }
 /*充值金额表格*/
 table,td{
-    border:1px solid #ccc; border-collapse:collapse;
+    border: 1px solid #ccc; 
+    border-collapse: collapse;
 }
 #tab{
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     line-height: 30px;
 }
 #tab a{
     text-decoration: none;
-    color:#4D4D4D;
+    color: #4D4D4D;
 }
 #tab a:hover{
-    color:#F1881A;
+    color: #F1881A;
 }
 .first-row{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    background:#DEDEDE;
+    background: #DEDEDE;
 }

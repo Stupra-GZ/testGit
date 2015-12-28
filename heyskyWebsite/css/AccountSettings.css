@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-24 14:35:23
+* @Last Modified time: 2015-12-28 22:15:35
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -18,6 +18,11 @@ ul,ol{
     list-style: none;
 }
 input,button{border:none;}
+input{
+    font-family: "Arial Regular";
+    font-size: 14px;
+    color:#b3b3b3;
+}
 header{
     width:100%;
     height:66px;
@@ -28,6 +33,7 @@ header{
     width:1200px;
     height:910px;
     border:1px solid #DEDEDE;
+    background: #ffffff;
 }
 /*左边*/
 .center-left{
@@ -46,18 +52,27 @@ header{
 }
 /*账号设置*/
 .SetUp{
-    width:100%;
-    height:45px;
+    width: 100%;
+    height: 45px;
     border-bottom: 1px solid #DEDEDE;
 }
 .SetUp span{
     display: inline-block;
-    margin:15px 0 0 16px;
+    margin: 21px 0 0 16px;
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
 }
-.logo,.PhoneVerification{
+.logo-one,.PhoneVerification{
     position:relative;
     width:100%;
     height:228px;
+}
+.logo-one label,
+.PhoneVerification label{
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
 }
 #logoName{
     position:absolute;
@@ -78,10 +93,13 @@ header{
     left:50px;
     top:120px;
 }
-#companyName input{
+#companyName input,
+#phoneNumber input{
+    margin-left: 10px;
     padding-left: 10px;
-    height:28px;
-    border:1px solid #DEDEDE;
+    height: 28px;
+    width: 220px;
+    border: 1px solid #DEDEDE;
 }
 /*保存按钮*/
 #btn,#passwordBtn{
@@ -91,6 +109,9 @@ header{
     width:88px;
     height:36px;
     background:#0188CC;
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
     color:#FFFFFF;
     cursor: pointer;
 }
@@ -108,21 +129,21 @@ header{
     left:66px;
     top:28px;
 }
-#phoneNumber input{
-    padding-left: 10px;
-    height:28px;
-    border:1px solid #DEDEDE;
-}
+
 /*获取验证码按钮*/
 #verificationBtn{
     position:absolute;
-    top:65px;
-    left:122px;
+    top:70px;
+    left:129px;
     width:120px;
     height:30px;
     background:#F1881A;
+    font-family: "宋体";
     color:#FFFFFF;
     cursor:pointer;
+}
+#security-code{
+    margin-left: 9px;
 }
 /*验证码*/
 #SecurityCode{
@@ -139,17 +160,20 @@ header{
     width:100%;
     height:370px;
 }
+#password label{
+    font-family: "宋体";
+    font-size: 14px;
+}
+#loginPassword label{
+    font-weight: bold;
+}
 /*登录密码*/
 #loginPassword{
     position:absolute;
-    left:50px;
+    left:46px;
     top:30px;
 }
-#loginPassword input{
-    padding-left: 10px;
-    width:110px;
-    height:30px;
-}
+
 /*当前密码*/
 #currentPassword{
     position:absolute;
@@ -159,23 +183,30 @@ header{
 /*新密码*/
 #nuwPassword{
     position:absolute;
-    left:62px;
-    top:126px;
+    left:60px;
+    top:114px;
 }
 #currentPassword input,
 #nuwPassword input,
-#confirmPassword input{
-    width:220px;
-    height:28px;
-    border:1px solid #DEDEDE;
+#confirmPassword input,
+#loginPassword input{
+    margin-left: 10px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid #DEDEDE;
+    font-size: 24px;
+    color: #000000;
+}
+#loginPassword input{
+    border:none;
 }
 /*确认密码*/
 #confirmPassword{
     position:absolute;
     left:46px;
-    top:172px;
+    top:154px;
 }
 /*密码保存按钮*/
 #passwordBtn{
-    bottom:112px;
+    top: 214px;
 }

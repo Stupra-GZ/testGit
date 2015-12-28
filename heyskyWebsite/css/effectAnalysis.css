@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-26 17:06:06
+* @Last Modified time: 2015-12-28 21:16:00
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -32,6 +32,10 @@ header{
     height:1608px;
     border-right: 1px solid #DEDEDE;
 }
+.left-nav-box{
+    position: relative;
+    height: 1608px;
+}
 /*右边*/
 .center-right{
     position:relative;
@@ -48,42 +52,51 @@ header{
     width:988px;
     border-bottom: 1px solid #DEDEDE;
     font-family: "微软雅黑";
-    font-size: 14px;
+    font-size: 15px;
     color:#4D4D4D;
+    font-weight: bold;
     background-color: #fff;
     line-height: 45px;
+}
+#top span{
+    display: inline-block;
+    margin-top: 5px;
 }
 /*账号切换*/
 .account-switching{
     position:absolute;
     top:5px;
     right:20px;
-    width:166px;
-    height:30px;
+    width:167px;
+    height:32px;
     border:1px solid #DEDEDE;
 }
-.account-switching button,.account-switching input{
+.account-switching button,
+.account-switching input{
     float:left;
 }
 .account-switching input{
     padding-left: 10px;
-    width:127px;
-    height:28px;
+    width: 136px;
+    height: 30px;
     border-right: 1px solid #DEDEDE;
+    color: #b3b3b3;
 }
 /*账号切换按钮*/
 .account-switching button{
-    position:relative;
-    width:37px;
+    width:28px;
     height:30px;
     background:url(../images/button.png) no-repeat center center;
+    cursor:pointer;
 }
 #account-num-select{
     display:none;
     position:absolute;
     left:93px;
     top:30px;
+    z-index: 99;
 }
+/*切换账号列表*/
 #account-num-select ul li{
     height:28px;
     line-height: 28px;
@@ -108,6 +121,8 @@ header{
     width:955px;
     line-height: 38px;
     background:#DEDEDE;
+    font-size: 13px;
+    font-weight: bold;
 }
 .targe-center{
     width:956px;
@@ -119,7 +134,7 @@ header{
     float:left;
     margin-left: 20px;
     width:212px;
-    height:120px;
+    height:134px;
     color:#fff;
 
 }
@@ -127,18 +142,22 @@ header{
 .marketing{
     
     background:#FF5454;
+    border:1px solid #ff1c1c;
 }
 /*催付成功率*/
 .reminders{
     background:#23B7E5;
+    border:1px solid #05aee2;
 }
 /*订单纠纷率*/
 .order-form{
     background:#FABB3D;
+    border:1px solid #ffaf10;
 }
 /*累计发送短信*/
 .grand-total{
     background:#5D9CEC;
+     border:1px solid #277ce8;
 }
 .marketing h3,
 .reminders h3,
@@ -147,14 +166,18 @@ header{
     margin-bottom: 10px;
     font-size: 30px;
 }
+
 .success{
     font-size: 14px;
     padding-bottom:10px;
 }
 .send{
-
+    margin-bottom: 4px;
     padding-bottom: 2px;
     font-size: 12px;
+}
+#article{
+    font-size: 14px;
 }
 /*发送数量*/
 .data-analysis{
@@ -166,9 +189,10 @@ header{
 /*数据*/
 .added{
     width:100%;
-    height:39px;
+    height:38px;
     background:#F7F7F7;
     border-bottom: 1px solid #DEDEDE;
+    font-size: 13px;
 }
 /*数据列表*/
 .added ul li{
@@ -177,6 +201,9 @@ header{
     text-align: center;
     line-height: 39px;
     cursor:pointer;
+}
+.added ul li:first-child{
+    font-weight: bold;
 }
 .added ul li.current{
     background:#0188CC;
@@ -188,6 +215,7 @@ header{
     height:65px;
     width:100%;
     background:#F7F7F7;
+    font-size: 13px;
 }
 /*时间字符串*/
 .timer span{
@@ -201,6 +229,7 @@ header{
     left:70px;
     top:16px;
     border:1px solid #DEDEDE;
+    background: #ffffff;
 }
 .timer ul li{
     padding:8px 43px;
@@ -236,6 +265,9 @@ header{
     height:14px;
     background:#0188CC;
 }
+.detailed-data{
+    font-size: 13px;
+}
 /*详细数据表格*/
 table,td{
     border:1px solid #ccc; border-collapse:collapse;
@@ -244,6 +276,15 @@ table,td{
     margin:20px auto;
     text-align: center;
     line-height: 36px;
+    font-family: "Arial Regular";
+    font-size: 13px;
+}
+.forst-row{
+    font-family: "微软雅黑";
+    background: #fbfbfb;
+}
+.second-column{
+    background: #fbfbfb;
 }
 /*页数*/
 .page{
@@ -253,6 +294,7 @@ table,td{
     margin-left: -131px;
     width:262px;
     height:30px;
+    font-family: "Arial Regular";
 }
 /*页数列表*/
 .page li{
@@ -263,15 +305,14 @@ table,td{
     text-align: center;
     line-height:28px;
     border:1px solid #DEDEDE;
+    cursor: pointer;
 }
 /*当前页*/
 .page li.page-current{
     background:#0188CC;
+    color: #ffffff;
 }
-.page li a{
-    text-decoration: none;
-    color:#4D4D4D;
-}
+
 .page li:nth-child(7){
     border:none;
 }
@@ -280,7 +321,11 @@ table,td{
     width:26px;
     height:28px;
     border:1px solid #DEDEDE;
+    background: #ffffff;
 }
 #btn-left{
     left:-26px;
+}
+#btn-right{
+    margin-left: -1px;
 }
