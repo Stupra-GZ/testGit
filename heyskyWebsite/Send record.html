@@ -39,11 +39,12 @@
     <meta name="description" content="" />
     <title>发送设置</title>
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-    <link rel="stylesheet" href="../css/Send record.css" />
+    <link rel="stylesheet" href="./css/Send record.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <script src="../js/jquery-2.1.4.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="./js/jquery-2.1.4.min.js"></script>
+    <script src="./js/.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/MarketingManagement.js"></script>
 </head>
 <body>
     <div class="sand-right">
@@ -51,18 +52,18 @@
              <p class="sand1">发送记录</p>
             </div><!--end  sand-->
              <div class="drop-down">
+              <p>
                  <select class="set1">
                           <option><p>全部速卖通账号</p></option> 
                           <option><p>cn2039022</p></option>  
                           <option>cn2039021</option>  
                           <option>cn2039020</option>  
                   </select>
-                  
                   <label style="margin-left:-18px;">
-                  <p1 class="text1">订单号:</p1><input type="text" style="width:135px;height:25px; outline:none;"/>
+                  <p1 class="text1">订单号: </p1><input type="text" style="width:135px;height:25px; outline:none;"/>
                   </label>
                   
-                       <p1 class="text2">类型</p1>
+                       <p1 class="text2">类型:</p1>
                   <select class="set2">  
                           <option>全选</option>  
                           <option>会员营销</option>  
@@ -76,20 +77,20 @@
                           <option>日报</option>
                   </select>
                   <label >
-                  <p1 class="text2">时间:</p1><input type="text" style="width:140px;height:25px; outline:none;"/><p1 class="text2">~</p1><input type="text" style="width:140px;height:25px; outline:none;"/>
+                  <p1 class="text2">时间: </p1><input type="text" style="width:140px;height:25px; outline:none;"/><p1 class="tex"> ~ </p1><div class="input"><input type="text" style="width:140px;height:25px; outline:none;" />&nbsp<input type="button" name="" value="搜索" class="but1"></div>
                   </label>
-                  <input type="button" name="" value="搜索" class="but1">
-                 
+                  
+                 </p>
                   <div class="content">
                       <table class="content-tab" border="1">
                <tr>
-                   <td class="font">接受者</td>
-                   <td class="font">发送时间</td>
-                   <td class="font">订单号</td>
-                   <td class="font">手机号码</td>
-                   <td class="font">短信类型</td>
-                   <td class="font">短信内容</td>
-                   <td class="font">发送结果</td>
+                   <th class="font1">接受者</th>
+                   <th class="font2">发送时间</th>
+                   <th class="font3">订单号</th>
+                   <th class="font4">手机号码</th>
+                   <th class="font5">短信类型</th>
+                   <th class="font6">短信内容</th>
+                   <th class="font7">发送结果</th>
                </tr> 
                <tr>
                    <td><p1 class="text3">us1103599025</p1></td>
@@ -183,22 +184,28 @@
                </tr> 
 
             </table>
+
+                  <div class="page">
+                      <button id="page-btn-left"></button>
+                        <ul>
+                            
+                            <li class="current">1</li>
+                            <li>2</li>
+                            
+                        </ul>
+                     <button id="page-btn-right"></button>
+                  </div>
+
              </div><!--end  content-->
              <div class="text4">
                  <p1 class="text5" >备注:<p2 class="text6">由于号码错误导致的信息发送失败，海客信使不会收取任何费用。</p2></p1>
              </div><!--end text4-->
-                <div class="page">
-                    <a href="#" style="width:30px;height30px;"><<</a>
-                    <a href="#" style="width:30px;height30px;">1</a>
-                    <a href="#" style="width:30px;height30px;">2</a>
-                    <a href="#" style="width:30px;height30px;">>></a>
-                </div>
-                
+
             </div><!--end  drop-down-->
                       <div class="picture">
-                                   <div><a href="#"><img src="../img/Consultation.jpg"></a></div>
-                                   <div><a href="#"><img src="../img/Custon service.jpg"></a></div>
-                                   <div><a href="#"><img src="../img/Feedback.jpg"></a></div>
+                                   <div><a href="#"><img src="./img/Consultation.jpg"></a></div>
+                                   <div><a href="#"><img src="./img/Custon service.jpg"></a></div>
+                                   <div><a href="#"><img src="./img/Feedback.jpg"></a></div>
 
                       </div>
     </div><!--end  sand-right-->

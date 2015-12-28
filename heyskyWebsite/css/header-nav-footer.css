@@ -273,3 +273,209 @@ a{
     font-size: 12px;
     color: #4d4d4d;
 }
+
+
+
+
+
+
+
+
+/* 
+* @Author: San
+* @Date:   2015-12-25 14:25:54
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-12-28 16:46:46
+*/
+
+ul,ol,li{
+    list-style:none;
+}
+a{
+    text-decoration:none; 
+}
+body{
+    width:990px;
+    margin:auto;
+}
+.sand-right{
+    width:990px;
+    height:1100px;
+    /* background:url(../img/background3.jpg);*/
+   margin: -1231px 209px;
+}
+
+.sand{
+     width:990px;
+    height:46px;
+    border:1px solid #dedede;
+    background:#fff;
+}
+.sand1{
+    margin-left: 16px;
+    font-weight:bold;
+}
+.drop-down{
+    width: 990px;
+    height:1052px;
+    border-top: none;
+    border:1px solid #dedede;
+}
+.drop-down p{
+    
+}
+.set1{
+    margin:17px 15px;
+    width:168px;
+    height:30px;
+    border:1px solid #dedede;
+    outline:none;
+}
+.text1{
+    font-size:14px;
+    font-weight:bold;
+}
+.set2{
+    width:102px;
+    height:30px;
+}
+.text2{
+    height: 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.tex{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative; top:-33px; left:740px;
+}
+.input{
+   display: block;
+   position: relative; top:-79px; left:753px;
+}
+tr{
+    width: 958px;
+}
+td{
+    height:45px;
+}
+.but1{
+    width:60px;
+    height:30px;
+    color:#fff;
+    background:#0188cc;
+    border:none;
+}
+.content{
+    margin: -75px 16px;
+}
+.content-tab{
+    width:956px;
+    height:857px;
+    text-align:center;
+    border:1px solid #dedede;
+    border-collapse: collapse;
+}
+.font1,.font2,.font3{
+    height:45px;
+    width: 115px;
+    color:#4d4d4d;
+    font-size:14px;
+    background:#f5f5f5;
+    font-weight:bold;
+ }
+.font4{
+    height:45px;
+    width: 115px;
+    color:#4d4d4d;
+    font-size:14px;
+    background:#f5f5f5;
+    font-weight:bold;
+ }
+ .font5{
+    height:45px;
+    width: 81px;
+    color:#4d4d4d;
+    font-size:14px;
+    background:#f5f5f5;
+    font-weight:bold;
+ }
+ .font6{
+    height:45px;
+    width: 313px;
+    color:#4d4d4d;
+    font-size:14px;
+    background:#f5f5f5;
+    font-weight:bold;
+ }
+ .font7{
+    height:45px;
+    width: 80px;
+    color:#4d4d4d;
+    font-size:14px;
+    background:#f5f5f5;
+    font-weight:bold;
+ }
+.text3{
+   
+    font-size: 12px;
+}
+.text4{
+    float: right;
+    margin: 10px 13px;
+}
+.text5{
+    color:#ff0000;
+    font-size:10px;
+}
+.text6{
+    color:#4d4d4d;
+    font-size:10px;
+}
+
+.picture{
+    display: block;
+    margin:-840px 1045px;
+}
+.page{
+    position:relative;
+    width:104px;
+    height:28px;
+    left:42%;
+    bottom:-57px;
+    margin-left: -39px;
+}
+.page ul li,
+#page-btn-left,
+#page-btn-right{
+    float:left;
+    width:26px;
+    height:28px;
+    border:1px solid #DEDEDE;
+    text-align: center; 
+    line-height: 28px;
+    cursor:pointer;
+}
+.page ul{
+    margin: 0 -14px;
+}
+
+#page-btn-left{
+    outline:none;
+    height:30px;
+    background: url(../images/Triangle_r1_c1.png) no-repeat center center;
+}
+
+#page-btn-right{
+    outline:none;
+    height:30px;
+    margin: -30px 82px;
+    background: url(../images/Triangle_r1_c3.png) no-repeat center center;
+}
+.page ul li.current{
+    background-color:#0188CC;
+    color:#FFFFFF;
+}
+
+
