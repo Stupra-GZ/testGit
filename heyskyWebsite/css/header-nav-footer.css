@@ -6,11 +6,9 @@
     height: 1012px;
     border-right: 1px solid #dedede;
 }
-
-
-body{
+/*body{
     background: url(../images/header-nav-footer/background.png);
-}
+}*/
 a{
     text-decoration: none;
 }
@@ -37,8 +35,8 @@ a{
 .mt20{
     margin-top: 20px;
 }
-.mt28{
-    margin-top: 28px;
+.mt30{
+    margin-top: 30px;
 }
 .mt40{
     margin-top: 40px;
