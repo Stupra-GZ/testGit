@@ -2,7 +2,7 @@
 * @Author: San
 * @Date:   2015-12-25 09:10:26
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-28 09:38:34
+* @Last Modified time: 2015-12-28 21:00:18
 */
 ul,ol,li{
     list-style:none;
@@ -11,7 +11,8 @@ a{
     text-decoration:none; 
 }
 .reminder-right{
-    float:right;
+    
+    margin: auto;
     width:1111px;
     height:900px;
     /*
@@ -25,17 +26,16 @@ a{
     background:#fff;
 }
 .reninder1{
-    margin:5px 10px;
-    font-size:15px;;
+    margin: 20px 16px;
+    font-size:14px;;
     font-weight:bold;
 }
 .content{
      width:987px;
-
     border:1px solid #dedede;
 }
 .text1{
-    margin:24px 13px;
+    margin:30px 16px;
     font-size: 15px;
     font-weight:bold;
     color:#4d4d4d;
@@ -46,9 +46,10 @@ a{
 .set{
     width:171px;
     height:32px;
-    position: absolute; top:75px; left:483px;
+    position: relative; top:-58px; left:260px;
 }
 .contents{
+    margin: -30px 0;
     height:900px;
     width:945px;
 }
@@ -58,29 +59,34 @@ a{
     margin-left:20px;
     border:1px solid #dedede;
 }
+
 .text3{
-    position:absolute; top:240px; left:283px;
+    position:relative; top:4px; left:20px;
     font-size:18px;
     color:#5e5e5e;
 }
 .img1{
-    margin:53px 37px;
+    margin: 35px -52px;
 }
+
 .img2{
-    position:absolute; top:176px; left:440px;
+    position:relative; top:-45px; left:155px;
 }
 .but1{
-    width:125px;
+    width:124px;
     height:30px;
     background:#fff;
     outline:none;
+    cursor: pointer;
     font-size:17px;
     color:#5e5e5e;
     border:1px solid #dedede;
-    position:absolute;top:233px; left:410px;
+    position:relative;
+    top:-3px; left:52px;
+    font-size:14px;
 }
 .content2{
-    margin:-170px 340px;
+    margin:-169px 340px;
     width:305px;
     height:167px;
     border:1px solid #dedede;
@@ -88,26 +94,30 @@ a{
 .text4{
     font-size:18px;
     color:#5e5e5e;
-    position:absolute;top:240px;left:600px;
+    position:relative;top:75px; left:22px;
 }
 .img3{
-    position:absolute; top:180px; left:610px;
+    position:relative; top:40px; left:-50px;
 }
 .img4{
-    position:absolute; top:176px; left:760px;
+    position:relative; top:26px; left:50px;
 }
 .but2{
     width:125px;
     height:30px;
-    background:#fff;
-    outline:none;
-    font-size:16px;
-    color:#5e5e5e;
     border:1px solid #dedede;
-    position:absolute; top:233px; left:730px;
+    position:relative;
+    top:44px; 
+    left:164px;
+    outline:none;
+    cursor: pointer;
+    font-size:14px;
+    color:#5e5e5e;
+    background:#fff;
+   
 }
 .content3{
-    margin:-170px 660px;
+    margin:-169px 659px;
     width:305px;
     height:167px;
     border:1px solid #dedede;
@@ -115,27 +125,36 @@ a{
 .text5{
     font-size:18px;
     color:#5e5e5e;
-    position:absolute;top:240px;left:922px;
+    position:relative;
+    top:72px; 
+    left:24px;
 }
 .img5{
-    position:absolute; top:179px; left:932px;
+    position:relative;
+    top:38px; 
+    left:-50px;
 }
 .img6{
-    position:absolute; top:176px; left:1081px;
+    position:relative;
+    top:26px; 
+    left:50px;
 }
 .but3{
     width:125px;
     height:30px;
     background:#fff;
     outline:none;
-    font-size:16px;
+    cursor: pointer;
+    font-size:14px;
     color:#5e5e5e;
     border:1px solid #dedede;
-    position:absolute; top:233px; left:1050px;
+    position:relative;
+    top:44px; 
+    left:165px;
 }
 
 .content4{
-    margin:200px 20px;
+    margin:183px 20px;
     width:305px;
     height:167px;
     border:1px solid #dedede;
@@ -143,26 +162,27 @@ a{
 .text6{
     font-size:18px;
     color:#5e5e5e;
-    position:absolute;top:425px;left:280px;
+    position:relative;;top:72px; left:20px;
 }
 .img7{
-    position:absolute; top:363px; left:285px;
+    position:relative;; top:30px; left:-52px;
 }
 .img8{
-    position:absolute; top:360px; left:440px;
+    position:relative;; top:20px; left:48px;
 }
 .but4{
     width:125px;
     height:30px;
     background:#fff;
     outline:none;
-    font-size:16px;
+    cursor: pointer;
+    font-size:14px;
     color:#5e5e5e;
     border:1px solid #dedede;
-    position:absolute; top:416px; left:410px;
+    position:relative; top:40px; left:163px;
 }
 .content5{
-    margin:-370px 340px;
+    margin:-352px 340px;
     width:305px;
     height:167px;
     border:1px solid #dedede;
@@ -170,26 +190,27 @@ a{
 .text7{
     font-size:18px;
     color:#5e5e5e;
-    position:absolute;top:425px;left:600px;
+    position:relative; top:71px; left:-33px;
 }
 .img9{
-    position:absolute; top:363px; left:610px;
+    position:relative; top:30px; left:30px;
 }
 .img10{
-    position:absolute; top:360px; left:760px;
+   position:relative; top:20px; left:60px;
 }
 .but5{
     width:125px;
     height:30px;
     background:#fff;
     outline:none;
+    cursor: pointer;
     font-size:16px;
     color:#5e5e5e;
     border:1px solid #dedede;
-    position:absolute; top:416px; left:730px;
+    position:relative; top:38px; left:163px;
 }
 .content6{
-    margin:200px 660px;
+    margin:183px 660px;
     width:305px;
     height:167px;
     border:1px solid #dedede;
@@ -197,23 +218,24 @@ a{
 .text8{
     font-size:18px;
     color:#5e5e5e;
-    position:absolute;top:425px;left:925px;
+    position:relative; top:70px; left:25px;
 }
 .img11{
-    position:absolute; top:363px; left:930px;
+   position:relative; top:30px; left:-53px;
 }
 .img12{
-    position:absolute; top:360px; left:1080px;
+     position:relative; top:20px; left:45px;
 }
 .but6{
     width:125px;
     height:30px;
     background:#fff;
     outline:none;
+    cursor: pointer;
     font-size:16px;
     color:#5e5e5e;
     border:1px solid #dedede;
-    position:absolute; top:416px; left:1050px;
+   position:relative; top:38px; left:163px;
 }
 .picture{
     display: block;
