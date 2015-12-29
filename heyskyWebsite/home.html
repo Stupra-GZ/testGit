@@ -52,18 +52,18 @@
 <body class="background" id="home">
     <!--半透明遮照层-->
     <div class="protective-layer" id="protectiveLayer">
-        <div class="material-perfect">
+        <div class="material-perfect home-img">
             <h2>资料完善</h2>
-            <p class="mt20">为了提高客户体验，请完善您的资料</p>
+            <p>为了提高客户体验，请完善您的资料</p>
             <form class="material-form" action="#">
-                <div class="material-input">
+                <div class="material-input1">
                     <label><span class="red">*</span>公司名称：</label><!--
                     --><input type="text" placeholder="请输入公司名称" />
                 </div>
                 <div class="material-input">
                     <label><span class="red">*</span>手机号码：</label><!--
                     --><input type="text" placeholder="请输入手机号码" />
-                    <span class="acquire-verification white">免费获取验证码</span>
+                    <span class="acquire-verification">免费获取验证码</span>
                 </div>
                 <div class="material-input">
                     <label><span class="red">*</span>验证码：</label><!--
@@ -73,33 +73,29 @@
                     <label><span class="red">*</span>密码设置：</label><!--
                     --><input type="password" placeholder="请输入密码" />
                 </div>
-                <div class="material-input">
+                <div class="material-input2">
                     <label><span class="red">*</span>确认密码：</label><!--
                     --><input type="password" placeholder="请确认密码" />
                 </div>
-                <div class="open-remind mt10">
+                <div class="open-remind">
                    <input class="mr5" type="checkbox"/>
-                   <label class="fz12">开启所有短信提醒功能</label>
+                   <label>开启所有短信提醒功能</label>
                </div>
-               <div class="submit-box"><input id="submit" class="white" type="submit" value="保存" /></div>
+               <div class="submit-box"><input id="submit" type="submit" value="保存" /></div>
             </form>
         </div>
     </div>
     <div class="header">
-        <div class="width1200 clear"> 
-            <h1  class="logo-box le"><i></i>专业国际短信</h1>
+        <div class="width1200 clear heider-b"> 
+            <div class="logo-box le"></div>
             <div class="ri">
                 <div class="userinfo-box le">
                     <div class="head-portraits"><img src="./images/header-nav-footer/head-portraits.png" alt="头像"></div>
-                    <div class="mt5 member-levels-box"><span class="member-levels">普通会员</span></div>
-                    <div class="mt5"><a class="username" href="#">us1103599025</a></div>
+                    <div class="member-levels-box"><span class="member-levels">普通会员</span></div>
+                    <div class="username-box"><a class="username" href="#">us1103599025</a></div>
                 </div>
-                <div class="le" id="recharge">
-                    <a class="recharge"  href="#"></a>
-                    <div class="balance-enquiry clear" id="balance-enquiry">
-                        <div class="le mr5"><i></i>余额 <b>151.52</b>元</div>
-                        <div class="le"><a href="#">立即冲值</a></div>
-                    </div>
+                <div class="le">
+                    <a class="recharge" href="#"></a>
                 </div>
                 <div class="le">
                     <a class="quit" href="#"></a>
@@ -114,40 +110,29 @@
             <li><i class="user-feedback"></i><span>用户反馈</span></li>
         </ul>
     </div>
-    <div class="width1200 clear content-box">
-        <!--左侧导航栏-->
+    <div class="width1200 clear content-box home-img1">
         <div class="left-nav-box">
             <dl class="vertical-nav">
-                <dt class="selected">
-                    <span><i class="home-smallIcon"></i>首页</span>
+                <dt class="dt">
+                    <a href="http://localhost/testGit/heyskyWebsite/home.html"><i class="home-smallIcon"></i>首页</a>
                 </dt>
-                <dt class="bt">
-                    <span><i class="wireless-marketing"></i>无线营销</span>
-                </dt>
-                <dd><a href="#">创建营销</a></dd>
-                <dd><a href="#">营销管理</a></dd>
-                <dt class="bt">
-                    <span><i class="brainpower-smallIcon"></i>智能提醒</span>
-                </dt>
-                <dd><a href="#">提醒设置</a></dd>
-                <dd><a href="#">发送消息</a></dd>
-                <dt class="bt">
-                    <span><i class="customer-management"></i>客户管理</span>
-                </dt>
-                <dd><a href="#">名录导入</a></dd>
-                <dd><a href="#">名录维护</a></dd>
-                <dt class="bt">
-                    <span><i class="data-img"></i>数据分析</span>
-                </dt>
-                <dd><a href="#">效果分析</a></dd>
-                <dd><a href="#">客户分析</a></dd>
-                <dt class="bt">
-                    <span><i class="system-setup"></i>系统设置</span>
-                </dt>
-                <dd><a href="#">账户充值</a></dd>
-                <dd><a href="#">日报设置</a></dd>
-                <dd><a href="#">速卖通绑定</a></dd>
-                <dd><a href="#">帐号设置</a></dd>
+                <dt class="dt1"><span><i class="wireless-marketing"></i>无线营销</span></dt>
+                    <dd><span>创建营销</span></dd>
+                    <dd><a href="#">营销管理</a></dd>
+                <dt class="dt1"><span><i class="brainpower-smallIcon"></i>智能提醒</span></dt>
+                    <dd><a href="#">提醒设置</a></dd>
+                    <dd><a href="#">发送消息</a></dd>
+                <dt class="dt1"><span><i class="customer-management"></i>客户管理</span></dt>
+                    <dd><a href="#">名录导入</a></dd>
+                    <dd><a href="#">名录维护</a></dd>
+                <dt class="dt1"><span><i class="data-img"></i>数据分析</span></dt>
+                    <dd><a href="#">效果分析</a></dd>
+                    <dd><a href="#">客户分析</a></dd>
+                <dt class="dt1"><span><i class="system-setup"></i>系统设置</span></dt>
+                    <dd><a href="#">账户充值</a></dd>
+                    <dd><a href="#">日报设置</a></dd>
+                    <dd><a href="#">速卖通绑定</a></dd>
+                    <dd><a href="#">帐号设置</a></dd>
             </dl>
             <div class="product-quotation-box">
                 <div><a class="pr15 br" href="#">产品报价</a><a class="ml15" href="#">常见问题</a></div>
@@ -210,7 +195,7 @@
                     </div>
                     <div class="mt20 client-curve">
                         <h3 class="ff-s">客户增量日曲线图</h3>
-                        <div><img width="922" src="./images/home/customer-incremental-curve.png"></div>
+                        <div class="flow-diagram"><img width="922" src="./images/home/customer-incremental-curve.png"></div>
                     </div>
                 </div>
             </div>
