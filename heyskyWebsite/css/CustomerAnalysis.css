@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-29 09:58:36
+* @Last Modified time: 2015-12-29 14:42:11
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -268,7 +268,7 @@ header{
     font-size: 13px;
 }
 /*购买高峰时段*/
-.peakHours,.client{
+.peak-hours,.client{
     margin:0 auto;
     width:955px;
     height:466px;
