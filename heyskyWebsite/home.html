@@ -94,8 +94,16 @@
                     <div class="mt5 member-levels-box"><span class="member-levels">普通会员</span></div>
                     <div class="mt5"><a class="username" href="#">us1103599025</a></div>
                 </div>
-                <a class="recharge le" href="#"></a>
-                <a class="quit le" href="#"></a>
+                <div class="le" id="recharge">
+                    <a class="recharge"  href="#"></a>
+                    <div class="balance-enquiry clear" id="balance-enquiry">
+                        <div class="le mr5"><i></i>余额 <b>151.52</b>元</div>
+                        <div class="le"><a href="#">立即冲值</a></div>
+                    </div>
+                </div>
+                <div class="le">
+                    <a class="quit" href="#"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -110,24 +118,36 @@
         <!--左侧导航栏-->
         <div class="left-nav-box">
             <dl class="vertical-nav">
-                <dt class="selected"><span><i class="home-smallIcon"></i>首页</span></dt>
-                <dt class="bt"><span><i class="wireless-marketing"></i>无线营销</span></dt>
-                    <dd><a href="#">创建营销</a></dd>
-                    <dd><a href="#">营销管理</a></dd>
-                <dt class="bt"><span><i class="brainpower-smallIcon"></i>智能提醒</span></dt>
-                    <dd><a href="#">提醒设置</a></dd>
-                    <dd><a href="#">发送消息</a></dd>
-                <dt class="bt"><span><i class="customer-management"></i>客户管理</span></dt>
-                    <dd><a href="#">名录导入</a></dd>
-                    <dd><a href="#">名录维护</a></dd>
-                <dt class="bt"><span><i class="data-img"></i>数据分析</span></dt>
-                    <dd><a href="#">效果分析</a></dd>
-                    <dd><a href="#">客户分析</a></dd>
-                <dt class="bt"><span><i class="system-setup"></i>系统设置</span></dt>
-                    <dd><a href="#">账户充值</a></dd>
-                    <dd><a href="#">日报设置</a></dd>
-                    <dd><a href="#">速卖通绑定</a></dd>
-                    <dd><a href="#">帐号设置</a></dd>
+                <dt class="selected">
+                    <span><i class="home-smallIcon"></i>首页</span>
+                </dt>
+                <dt class="bt">
+                    <span><i class="wireless-marketing"></i>无线营销</span>
+                </dt>
+                <dd><a href="#">创建营销</a></dd>
+                <dd><a href="#">营销管理</a></dd>
+                <dt class="bt">
+                    <span><i class="brainpower-smallIcon"></i>智能提醒</span>
+                </dt>
+                <dd><a href="#">提醒设置</a></dd>
+                <dd><a href="#">发送消息</a></dd>
+                <dt class="bt">
+                    <span><i class="customer-management"></i>客户管理</span>
+                </dt>
+                <dd><a href="#">名录导入</a></dd>
+                <dd><a href="#">名录维护</a></dd>
+                <dt class="bt">
+                    <span><i class="data-img"></i>数据分析</span>
+                </dt>
+                <dd><a href="#">效果分析</a></dd>
+                <dd><a href="#">客户分析</a></dd>
+                <dt class="bt">
+                    <span><i class="system-setup"></i>系统设置</span>
+                </dt>
+                <dd><a href="#">账户充值</a></dd>
+                <dd><a href="#">日报设置</a></dd>
+                <dd><a href="#">速卖通绑定</a></dd>
+                <dd><a href="#">帐号设置</a></dd>
             </dl>
             <div class="product-quotation-box">
                 <div><a class="pr15 br" href="#">产品报价</a><a class="ml15" href="#">常见问题</a></div>
@@ -210,6 +230,13 @@
                 $('#submit').click(function(event) {
                     $('#protectiveLayer').css('display', 'none');
                 });
+                // 绑定余额查询box鼠标滑动的显示和隐藏
+                $("#recharge").mouseenter(function(event){
+                    $("#balance-enquiry").css('display', 'block');
+                })
+                 $("#recharge").mouseleave(function(event){
+                    $("#balance-enquiry").css('display', 'none');
+                })
             });
         })();
     </script>

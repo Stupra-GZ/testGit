@@ -3,7 +3,46 @@
 	position: absolute;
 	background-image: url(../images/home/home-small-icon.png);
 }
-
+/*头部余额查询*/
+.balance-enquiry{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid #dedede;
+	padding: 9px 10px 9px 28px;
+	background-color: #fafafa;
+}
+.balance-enquiry i{
+	display: inline-block;
+	position: absolute;
+	width: 12px;
+	height: 13px;
+	margin:7px 0 0 -18px;
+	background: url(../images/home/tinton.png);
+}
+.balance-enquiry > div{
+	line-height: 26px;
+	color: #4d4d4d;
+}
+.balance-enquiry b{
+	color: red;
+}
+.balance-enquiry a{
+	display: block;
+	width: 80px;
+	height: 26px;
+	background-color: #0188cc;
+	color: #fff;
+	text-align: center;
+}
+.balance-enquiry:before{
+	position: absolute;
+	top: -15px;
+	left: 28px;
+	content: url(../images/home/epitriquetrum.png);
+	width: 11px;
+	height: 6px;
+}
 /*半透明遮照层*/
 .protective-layer{
 	/*display: none;*/

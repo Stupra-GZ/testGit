@@ -108,6 +108,7 @@ a{
 /*右侧固定定位移动栏*/
 .online-consultant-box{
     position: fixed;
+    z-index: 1;
     right: 0;
     font-size: 12px;
     text-align: center;
@@ -197,8 +198,10 @@ a{
     background-color: #f1881a;
 }
 .recharge,.quit{
+    display: block;
+    width: 66px;
+    height: 65px;
     border-left: 1px solid #333;
-    padding:32px 33px 33px; 
 }
 .recharge{
     background: url(../images/header-nav-footer/tinkle-bell.png) no-repeat center center;
