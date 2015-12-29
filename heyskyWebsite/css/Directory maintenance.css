@@ -2,7 +2,7 @@
 * @Author: San
 * @Date:   2015-12-25 18:23:53
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-26 10:44:00
+* @Last Modified time: 2015-12-29 12:20:16
 */
 ul,ol,li{
     list-style:none;
@@ -14,6 +14,7 @@ p{
     margin:5px 0px 0px 0px;
 }
 .directory-right{
+    margin:auto;
     width:1109px;
     height:1014px;
    /*
@@ -34,7 +35,14 @@ p{
     width:352px;
     margin:18px 19px;
 }
-.span1{
+.sand{
+    margin: 14px 16px;
+}
+.sand1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.span2{
     color:#b3b3b3;
     font-size:15px;
     width:310px;
@@ -57,6 +65,7 @@ p{
    color:#ffffff;
    background:#0188cc;
    border:none;
+   cursor: pointer;
 }
 .btn3{
    margin:17px 850px;
@@ -68,22 +77,28 @@ p{
    color:#ffffff;
    background:#0188cc;
    border:none;
+   cursor: pointer;
 }
 .content-Middle{
     width:960px;
-    height:860px;
+    height:864px;
+    margin-top:30px ;
     border:1px solid #dedede;
 }
 .content-Middle-head{
-
+    height:44px;
+    width:740px;
+    border:1px solid #dedede;  
+    background:#f5f5f5;
 }
 .lab1{
     width:80px;
     height:40px;
-    margin:20px 20px;
+    margin:14px 16px;
 }
 .text1{
-    position: absolute; top:138px; left:53px;
+    font-size: 14px;
+    position: relative; top:-23px; left:24px;
 }
 .text2{
     width:120px;
@@ -91,8 +106,9 @@ p{
     font-size: 15px;
     color:#b3b3b3;
     border:1px solid  #dedede;
-    background:#fff;
+    background:#f5f5f5;
     outline:none;
+    cursor: pointer;
 }
 .text3{
     height:30px;
@@ -100,8 +116,9 @@ p{
     font-size: 15px;
     color:#b3b3b3;
     border:1px solid  #dedede;
-    background:#fff;
+    background:#f5f5f5;
     outline:none;
+    cursor: pointer;
 }
 .text4{
     height:30px;
@@ -109,38 +126,45 @@ p{
     font-size: 15px;
     color:#b3b3b3;
     border:1px solid  #dedede;
-    background:#fff;
+    background:#f5f5f5;
     outline:none;
+    cursor: pointer;
 }
 .select{
-    margin:-25px 70px;
+    margin:-61px 87px;
 }
+
 .sel1{
    width:115px;
    height:30px; 
+   background:#f5f5f5;
    outline:none;
    border:1px solid  #dedede;
 }
 .bnt5{
-    margin:-30px 200px;
+    margin:30px 213px;
+    
 }
-.bnt6,.bnt7{
-    margin:-30px 135px;
+.bnt6{
+    margin:-60px 344px;
+}
+.bnt7{
+    margin:30px 476px;
 }
 .table{
      width:740px;
-     height:703px;
-     margin:10px -490px;
+     height:715px;
+     margin:-2px -1px;
      border-collapse: collapse;
      border:1px solid #dedede;
 }
 .div-tab{
-     width:740px;
-     margin-left:20px ;
+     width:742px;
+     margin-left:-1px ;
 }
 .tab2{
-    width:721px;
-    margin-right:-20px;
+    width:742px;
+    margin-right:-53px;
     border-collapse: collapse;
     border:1px solid #dedede;
 }
@@ -152,8 +176,16 @@ p{
   width:110px;
   height:40px;
 }
+tr{
+    text-align: center;
+    line-height: 17px;
+}
+}
+p{
+    font-size: 13px;
+}
 .tab-right{
-    margin:-770px 251px;
+    margin:-762px 741px;
     width:218px;
     height:200px;
     border:1px solid #dedede;
@@ -173,8 +205,13 @@ li{
 }
 .tab-right2 , .tab-right3{
     height:38px;
-    width:218px;
-    border:1px solid #dedede;
+    width:217px;
+    margin-left: 0px;
+    
+}
+.tab-right2{
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
 }
 
 .page {
@@ -200,8 +237,40 @@ li{
 .page1{
     text-align: center;
 }
-.picture{
-    position: absolute;top:321px; left:1060px;
-    display: block;
-    
+
+.page{
+    position:relative; top:1351px; left:265px;
+    width:104px;
+    height:28px;
+}
+.page ul li,
+#page-btn-left,
+#page-btn-right{
+    float:left;
+    width:26px;
+    height:28px;
+    border:1px solid #DEDEDE;
+    text-align: center; 
+    line-height: 28px;
+    cursor:pointer;
+}
+.page ul{
+    margin: 0 -14px;
+}
+
+#page-btn-left{
+    outline:none;
+    height:30px;
+    background: url(../images/Triangle_r1_c1.png) no-repeat center center;
+}
+
+#page-btn-right{
+    outline:none;
+    height:30px;
+    margin: -30px 82px;
+    background: url(../images/Triangle_r1_c3.png) no-repeat center center;
+}
+.page ul li.current{
+    background-color:#0188CC;
+    color:#FFFFFF;
 }

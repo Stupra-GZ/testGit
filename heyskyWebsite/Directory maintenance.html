@@ -37,67 +37,82 @@
     <meta name="title" content="" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <title>Website Demo</title>
+    <title>名录维护</title>
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-    <link rel="stylesheet" href="../css/Directory maintenance.css" />
-    <link rel="stylesheet" href="../css/bootstrap.css" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/bootstrap-theme.css" />
-    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/Directory maintenance.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <script src="./js/jquery-2.1.4.min.js"></script>
-    <script src="../js/selectAll.js"></script>
+    <script src="./js/selectAll.js"></script>
+    <script src="./js/MarketingManagement.js"></script>
     <script src="./js/index.js"></script>
 </head>
 
 <body>
    <div class="directory-right">
-      <div class="directory">
-             <p class="sand1">发送记录</p>
+
+         <div class="directory">
+            <div class="sand">
+              <p class="sand1">发送记录</p>
+             </div>
       </div><!--end  directory-->
+
        <div class="content">
+
+
                     <div class="input-append">
-                          <input class="span1" type="text" value="人物昵称">
-                          <a href="#"> <img src="../img/search.jpg" class="img1"></a>
+                          <input class="span2" type="text" value="人物昵称">
+                          <a href="#"> <img src="./img/search.jpg" class="img1"></a>
                     </div><!--end  input-append-->
+
+
                     <!--btn-->
                     <div class="btn1">
                       <input type="submit"class="btn2" value="＋添加用户资料">
-                    </div>
+                    </div>  <!--end btn1-->
+                   
+
                      <div class="btn3">
                       <input type="submit"class="btn4" value="＋新建分组">
-                    </div>
-                     <!--end btn-->
-            <div class="content-Middle">
-                <div class="content-Middle-head">
-                            <div class="lab1">
-                                <label>
-                                           <input onclick="selectAll()" type="checkbox"   name="controlAll" id="controlAll"/>
-                                           <p class="text1">全选</p>
-                                </label> 
-                            <div><!--end  lab1-->
-                             <div class="select">
-                                 <select class="sel1">
-                                          <option>添加到</option> 
-                                          <option>cn2039022</option>  
-                                          <option>cn2039021</option>  
-                                          <option>cn2039020</option>  
-                                  </select>
-                            </div><!--end  select-->
-                            <div class="bnt5">
-                                  <input type=button value="加入黑名单"class="text2" onclick='del()'> 
-                            <div><!--end bnt5-->
-                            <div class="bnt6">
-                                  <input type=button value="短信快捷发送"class="text3" onclick='del()'> 
-                            <div><!--end bnt5-->
-                            <div class="bnt7">
-                                  <input type=button value="删除"class="text4" onclick='del()'> 
-                            <div><!--end bnt5-->
-                </div><!--end  content-Middle-head-->
-                <div class="table">
+                     </div>  <!--end btn3-->
+
+
+                   
+
+          <div class="content-Middle">
+                        <div class="content-Middle-head">
+                                    <div class="lab1">
+                                        <label>
+                                                   <input onclick="selectAll()" type="checkbox"   name="controlAll" id="controlAll"/>
+                                                   <p class="text1">全选</p>
+                                        </label> 
+                                    </div><!--end  lab1-->
+
+                                      <div class="select">
+                                         <select class="sel1">
+                                                  <option>添加到</option> 
+                                                  <option>cn2039022</option>  
+                                                  <option>cn2039021</option>  
+                                                  <option>cn2039020</option>  
+                                          </select>
+                                      </div>
+
+                                    <div class="bnt5">
+                                          <input type=button value="加入黑名单"class="text2" onclick='del()'> 
+                                    </div><!--end bnt5-->
+
+                                      <div class="bnt6">
+                                          <input type=button value="短信快捷发送"class="text3" onclick='del()'> 
+                                    </div><!--end bnt6-->
+
+                                      <div class="bnt7">
+                                          <input type=button value="删除"class="text4" onclick='del()'> 
+                                    </div><!--end bnt7-->
+
+                        </div><!--end  content-Middle-head-->
+                
+
+                        <div class="table">
                            <div class="div-tab">
                                 <table class="tab2" border="1">
                                        <tr>
@@ -196,10 +211,19 @@
                                            <td><p>hambdiby mahallesi yesilkent sitesic/ssc park</p></td>
                                            <td><p>127455348@qq.com</p></td>
                                        </tr> 
+                                       <tr>
+                                           <td><label ><input type="checkbox" name="selected"/><span>Hesra Togan</span></label></td>
+                                           <td><p>90-534-397539</p></td>
+                                           <td><p>hambdiby mahallesi yesilkent sitesic/ssc park</p></td>
+                                           <td><p>127455348@qq.com</p></td>
+                                       </tr> 
                                 </table>
                                 </div><!--end  div-table-->
-                </div><!--end  table-->
-                          <div class="tab-right">
+                              </div><!--end  table-->
+
+
+
+                            <div class="tab-right">
                                <div class="tab-right1">
                                    <li >全部用户(164)</li>
                                    <li class="li1">未分组(154)</li>
@@ -214,21 +238,25 @@
                                </div>
                           </div>
                  <div class="page">
-                    <a href="#" style="width:30px;height30px;"><<</a>
-                    <a href="#" style="width:30px;height30px;">1</a>
-                    <a href="#" style="width:30px;height30px;">2</a>
-                    <a href="#" style="width:30px;height30px;">>></a>
-                </div><!--end  page-->
-                 <div class="picture">
-                                   <div><a href="#"><img src="../img/Consultation.jpg"></a></div>
-                                   <div><a href="#"><img src="../img/Custon service.jpg"></a></div>
-                                   <div><a href="#"><img src="../img/Feedback.jpg"></a></div>
+                      <button id="page-btn-left"></button>
+                        <ul>
+                            
+                            <li class="current">1</li>
+                            <li>2</li>
+                            
+                        </ul>
+                     <button id="page-btn-right"></button>
+                  </div><!--end  page-->
 
-                      </div>
-            </div><!--end  content-Middle-->
+                        <div class="picture">
+                                   <div><a href="#"><img src="./img/Consultation.jpg"></a></div>
+                                   <div><a href="#"><img src="./img/Custon service.jpg"></a></div>
 
-       </div><!--end  content-->
-                     
-   </div><!--end  directory-right-->
+                      </div>   <!--end  picture-->
+                  
+           </div> <!--end  content-Middle-->
+        
+        </div><!--end  content-->
+    </div><!--end directory-right-->
    </body>
 </html>
