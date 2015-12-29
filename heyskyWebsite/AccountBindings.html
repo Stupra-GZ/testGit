@@ -47,15 +47,22 @@
     <script src="./js/AccountBindings.js"></script>
 </head> 
 <body>
+    <!-- 头部 -->
     <header>
         <div class="header">
-            <div class="width1200 clear">
-                <div class="logo le"></div>
+            <div class="width1200 clear"> 
+                <h1  class="logo-box le"><i></i>专业国际短信</h1>
                 <div class="ri">
                     <div class="userinfo-box le">
-                        <div class="head-portraits"><img src="./images/header-nav-footer/head-portraits.png" alt="头像"></div>
-                        <div class="mt5"><span class="member-levels">普通会员</span></div>
-                        <div class="mt5"><a class="username" href="#">us1103599025</a></div>
+                        <div class="head-portraits">
+                            <img src="./images/header-nav-footer/head-portraits.png" alt="头像">
+                        </div>
+                        <div class="mt5 member-levels-box">
+                            <span class="member-levels">普通会员</span>
+                        </div>
+                        <div class="mt5">
+                            <a class="username" href="#">us1103599025</a>
+                        </div>
                     </div>
                     <a class="recharge le" href="#"></a>
                     <a class="quit le" href="#"></a>
@@ -63,34 +70,69 @@
             </div>
         </div>
     </header><!--头部 -->
+    <!--根据需要剪切li来实现右侧边栏-->
+    <div class="online-consultant-box">
+        <ul class="list-no">
+            <li><i class="online-consultant"></i><span>在线咨询</span></li>
+            <li><i class="qq-service"></i><span>QQ客服</span></li>
+            <li><i class="user-feedback"></i><span>用户反馈</span></li>
+        </ul>
+    </div>
     <!-- 中心 -->
     <div class="center">
         <!-- 左边导航 -->
         <div class="center-left">
-            <div class="le left-nav-box">
+            <div class="left-nav-box">
                 <dl class="vertical-nav">
-                    <dt class=""><i class="home-smallIcon"></i>首页</dt>
-                    <dt class="bt"><i class="wireless-marketing"></i>无线营销</dt>
+                    <dt class="">
+                        <a href="http://localhost/testGit/heyskyWebsite/home.html"><i class="home-smallIcon"></i>首页
+                        </a>
+                    </dt>
+                    <dt class="bt">
+                        <span>
+                            <i class="wireless-marketing"></i>无线营销
+                        </span>
+                    </dt>
                         <dd><span>创建营销</span></dd>
                         <dd><a href="#">营销管理</a></dd>
-                    <dt class="bt"><i class="brainpower-smallIcon"></i>智能提醒</dt>
+                    <dt class="bt">
+                        <span>
+                            <i class="brainpower-smallIcon"></i>智能提醒
+                        </span>
+                    </dt>
                         <dd><a href="#">提醒设置</a></dd>
                         <dd><a href="#">发送消息</a></dd>
-                    <dt class="bt"><i class="customer-management"></i>客户管理</dt>
+                    <dt class="bt">
+                        <span>
+                            <i class="customer-management"></i>客户管理
+                        </span>
+                    </dt>
                         <dd><a href="#">名录导入</a></dd>
                         <dd><a href="#">名录维护</a></dd>
-                    <dt class="bt"><i class="data-img"></i>数据分析</dt>
+                    <dt class="bt">
+                        <span>
+                            <i class="data-img"></i>数据分析
+                        </span>
+                    </dt>
                         <dd><a href="#">效果分析</a></dd>
                         <dd><a href="#">客户分析</a></dd>
-                    <dt class="bt"><i class="system-setup"></i>系统设置</dt>
+                    <dt class="bt">
+                        <span>
+                            <i class="system-setup"></i>系统设置
+                        </span>
+                    </dt>
                         <dd><a href="#">账户充值</a></dd>
                         <dd><a href="#">日报设置</a></dd>
                         <dd><a href="#">速卖通绑定</a></dd>
                         <dd><a href="#">帐号设置</a></dd>
                 </dl>
                 <div class="product-quotation-box">
-                    <div><a class="pr15 br" href="#">产品报价</a><a class="ml15" href="#">常见问题</a></div>
-                    <div class="mt10">速卖通旺旺交流群：<span class="phone">1563765460</span>
+                    <div>
+                        <a class="pr15 br" href="#">产品报价</a>
+                        <a class="ml15" href="#">常见问题</a>
+                    </div>
+                    <div class="mt10">速卖通旺旺交流群：
+                        <span class="phone">1563765460</span>
                     </div>
                 </div>
             </div>
@@ -136,10 +178,16 @@
             </div>
         </div><!-- 右边 -->    
     </div>
-
+    
+    <!-- 尾部 -->
     <div class="footer">
-        <div><a class="pr15 br" href="#">产品报价</a><a class="ml15 pr15 br" href="#">常见问题</a><a class="ml15 pr15 br" href="#">隐私条款</a><a class="ml15" href="#">联系我们</a></div>
-        <div class="mt10">2015 © 厦门闪通网络技术有限公司(客服电话：0592-3752092)
+        <div>
+            <a class="pr15 br" href="#">产品报价</a>
+            <a class="ml15 pr15 br" href="#">常见问题</a>
+            <a class="ml15 pr15 br" href="#">隐私条款</a>
+            <a class="ml15" href="#">联系我们</a>
+        </div>
+        <div class="mt10">2015 © 厦门闪通网络技术有限公司( 客服电话：0592-3752092)
         </div>
     </div>
 </body>
