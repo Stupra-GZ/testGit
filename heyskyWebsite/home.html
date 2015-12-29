@@ -48,29 +48,50 @@
     <script src="./js/index.js"></script>
 </head>
 
-<body id="home">
-    <div class="protective-layer">
+
+<body class="background" id="home">
+    <!--半透明遮照层-->
+    <div class="protective-layer" id="protectiveLayer">
         <div class="material-perfect">
             <h2>资料完善</h2>
             <p class="mt20">为了提高客户体验，请完善您的资料</p>
             <form class="material-form" action="#">
-               <div class="material-input"><label><span class="red">*</span>公司名称：</label><input type="text" placeholder="请输入公司名称" /></div>
-               <div class="material-input"><label><span class="red">*</span>手机号码：</label><input type="text" placeholder="请输入手机号码" /><span class="acquire-verification white">免费获取验证码</span></div>
-               <div class="material-input"><label><span class="red">*</span>验证码：</label><input type="text" placeholder="请输入验证码" /></div>
-               <div class="material-input"><label><span class="red">*</span>密码设置：</label><input type="password" placeholder="请输入密码" /></div>
-               <div class="material-input"><label><span class="red">*</span>确认密码：</label><input type="password" placeholder="请确认密码" /></div>
-               <div class="open-remind mt10"><input class="mr5" type="checkbox"/><label class="fz12">开启所有短信提醒功能</label></div>
-               <div class="submit-box"><input class="white" type="submit" value="保存" /></div>
+                <div class="material-input">
+                    <label><span class="red">*</span>公司名称：</label><!--
+                    --><input type="text" placeholder="请输入公司名称" />
+                </div>
+                <div class="material-input">
+                    <label><span class="red">*</span>手机号码：</label><!--
+                    --><input type="text" placeholder="请输入手机号码" />
+                    <span class="acquire-verification white">免费获取验证码</span>
+                </div>
+                <div class="material-input">
+                    <label><span class="red">*</span>验证码：</label><!--
+                    --><input type="text" placeholder="请输入验证码" />
+                </div>
+                <div class="material-input">
+                    <label><span class="red">*</span>密码设置：</label><!--
+                    --><input type="password" placeholder="请输入密码" />
+                </div>
+                <div class="material-input">
+                    <label><span class="red">*</span>确认密码：</label><!--
+                    --><input type="password" placeholder="请确认密码" />
+                </div>
+                <div class="open-remind mt10">
+                   <input class="mr5" type="checkbox"/>
+                   <label class="fz12">开启所有短信提醒功能</label>
+               </div>
+               <div class="submit-box"><input id="submit" class="white" type="submit" value="保存" /></div>
             </form>
         </div>
     </div>
     <div class="header">
-        <div class="width1200 clear">
-            <div class="logo le"></div>
+        <div class="width1200 clear"> 
+            <h1  class="logo-box le"><i></i>专业国际短信</h1>
             <div class="ri">
                 <div class="userinfo-box le">
                     <div class="head-portraits"><img src="./images/header-nav-footer/head-portraits.png" alt="头像"></div>
-                    <div class="mt5"><span class="member-levels">普通会员</span></div>
+                    <div class="mt5 member-levels-box"><span class="member-levels">普通会员</span></div>
                     <div class="mt5"><a class="username" href="#">us1103599025</a></div>
                 </div>
                 <a class="recharge le" href="#"></a>
@@ -79,29 +100,30 @@
         </div>
     </div>
     <div class="online-consultant-box">
-            <ul class="list-no">
-                <li><i class="online-consultant"></i>在线咨询</li>
-                <li><i class="qq-service"></i>QQ客服</li>
-                <li><i class="user-feedback"></i>用户反馈</li>
-            </ul>
-        </div>
-    <div class="width1200 mt15 clear content-box">
-        <div class="le left-nav-box">
+        <ul class="list-no">
+            <li><i class="online-consultant"></i><span>在线咨询</span></li>
+            <li><i class="qq-service"></i><span>QQ客服</span></li>
+            <li><i class="user-feedback"></i><span>用户反馈</span></li>
+        </ul>
+    </div>
+    <div class="width1200 clear content-box">
+        <!--左侧导航栏-->
+        <div class="left-nav-box">
             <dl class="vertical-nav">
-                <dt><span class="selected"><i class="home-smallIcon"></i>首页</span></dt>
-                <dt class="bt"><i class="wireless-marketing"></i>无线营销</dt>
+                <dt class="selected"><span><i class="home-smallIcon"></i>首页</span></dt>
+                <dt class="bt"><span><i class="wireless-marketing"></i>无线营销</span></dt>
                     <dd><a href="#">创建营销</a></dd>
                     <dd><a href="#">营销管理</a></dd>
-                <dt class="bt"><i class="brainpower-smallIcon"></i>智能提醒</dt>
+                <dt class="bt"><span><i class="brainpower-smallIcon"></i>智能提醒</span></dt>
                     <dd><a href="#">提醒设置</a></dd>
                     <dd><a href="#">发送消息</a></dd>
-                <dt class="bt"><i class="customer-management"></i>客户管理</dt>
+                <dt class="bt"><span><i class="customer-management"></i>客户管理</span></dt>
                     <dd><a href="#">名录导入</a></dd>
                     <dd><a href="#">名录维护</a></dd>
-                <dt class="bt"><i class="data-img"></i>数据分析</dt>
+                <dt class="bt"><span><i class="data-img"></i>数据分析</span></dt>
                     <dd><a href="#">效果分析</a></dd>
                     <dd><a href="#">客户分析</a></dd>
-                <dt class="bt"><i class="system-setup"></i>系统设置</dt>
+                <dt class="bt"><span><i class="system-setup"></i>系统设置</span></dt>
                     <dd><a href="#">账户充值</a></dd>
                     <dd><a href="#">日报设置</a></dd>
                     <dd><a href="#">速卖通绑定</a></dd>
@@ -111,34 +133,38 @@
                 <div><a class="pr15 br" href="#">产品报价</a><a class="ml15" href="#">常见问题</a></div>
                 <div class="mt10">速卖通旺旺交流群：<span class="phone">1563765460<span></div>
             </div>
-        </div>
+        </div><!--左侧导航栏结束-->
+
+        <!--右侧主要内容-->
         <div class="list2-self-adaption home">
             <div class="home-conter-box">
                 <div class="clear">
-                    <div class="le"><img src="./images/home/home-focus-Picture.png"></div>
+                    <div class="le focus-Picture"><img src="./images/home/home-focus-Picture.png"></div>
                     <div class="ri send-Messages-box">
-                        <h2 class="c-4d">短信快捷发送</h2>
+                        <h2 class="">短信快捷发送</h2>
                         <form class="send-Messages" action="#" method="post">
                             <div>
-                                <select class="c-4d">
+                                <select class="">
                                   <option value ="volvo">选择国家</option>
                                 </select><!--
-                                --><input class="phone-number-input ml10 c-4d" type="text" value="请输入手机号码" />
+                                --><input class="phone-number-input ml10" type="text" value="请输入手机号码" />
                             </div>
                             <textarea class="mt15"></textarea>
-                            <div class="mt10 send-note-submit-box"><input class="send-note-submit height30 b-no white" type="submit"/></div>
+                            <div class="send-note-submit-box">
+                                <input class="send-note-submit white" type="submit" value="发送短信" />
+                            </div>
                         </form>
                     </div>
                 </div>
-                <div class="mt28 c-4d">
+                <div class="noti-fications-box">
                     <ul class="list-no noti-fications" id="noti-fications">
-                        <li>迎双11大促，马上参与1元秒杀活动<i></i></li>
-                        <li>您的未付款订单较多，建议开通催付提醒哦<i></i></li>
-                    <ul>
+                        <li><a href="#">迎双11大促，马上参与1元秒杀活动</a><i></i></li>
+                        <li><a href="#">您的未付款订单较多，建议开通催付提醒哦</a><i></i></li>
+                    </ul>
                 </div>
-                <div class="mt28 account-detail-box c-4d">
+                <div class="account-detail-box c-4d">
                      <div class="switch-account-box">
-                        <select class="height30 switch-account">
+                        <select class="switch-account">
                           <option value ="volvo">切换账号</option>
                         </select>
                     </div>
@@ -147,24 +173,24 @@
                         <ul class="list-no .ff-s battlelog-details clear white">
                             <li class="le mr20 li1">
                                 <h4>新增订单</h4>
-                                <p><span class="fz36">193</span>笔</p>
+                                <p><span>193</span>笔</p>
                                 <i class="new-indent-img"></i>
                             </li>
                             <li class="le mr20 li2">
                                 <h4>新增客户</h4>
-                                <p><span class="fz36">13</span>人</p>
+                                <p><span>13</span>人</p>
                                 <i class="new-client-img"></i>
                             </li>
                             <li class="le li3">
                                 <h4>短信发送</h4>
-                                <p><span class="fz36">168</span>条</p>
+                                <p><span>168</span>条</p>
                                 <i class="note-send-img"></i>
                             </li>
                         </ul>
                     </div>
                     <div class="mt20 client-curve">
                         <h3 class="ff-s">客户增量日曲线图</h3>
-                        <div><img width="930" src="./images/home/customer-incremental-curve.png"></div>
+                        <div><img width="922" src="./images/home/customer-incremental-curve.png"></div>
                     </div>
                 </div>
             </div>
@@ -180,6 +206,9 @@
             $(document).ready(function () {
                 $('#noti-fications i').click(function(event) {
                     $(this).parent().css('display', 'none');
+                });
+                $('#submit').click(function(event) {
+                    $('#protectiveLayer').css('display', 'none');
                 });
             });
         })();

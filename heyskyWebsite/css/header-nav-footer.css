@@ -1,14 +1,8 @@
 /*
-把它复制到特定网页的css表里，根据右边页面内容的高度给它高度
+
 */
-.left-nav-box{
-    position: relative;
-    height: 1012px;
-    border-right: 1px solid #dedede;
-}
 
-
-body{
+body.background{
     background: url(../images/header-nav-footer/background.png);
 }
 a{
@@ -16,6 +10,8 @@ a{
 }
 
 .content-box{
+    position: relative;
+    min-height: 1012px;
     margin-top: 30px;
     border: 1px solid #dedede;
     background-color: #fff;
@@ -89,8 +85,10 @@ a{
     list-style: none;
 }
 .list2-self-adaption{
-    display: table-cell;
-    width: 2000px;
+    margin-left: 209px;
+    overflow: hidden;
+    /*display: table-cell;
+    width: 2000px;*/
 }
 .clear:after{
     display: table;
@@ -210,6 +208,12 @@ a{
 }
 
 /*左侧导航left-nav*/
+.left-nav-box{
+    position: absolute;
+    top: 0px;bottom: 0;
+    left: 0;
+    border-right: 1px solid #dedede;
+}
 .vertical-nav{
     width: 208px;
     padding-top: 8px;
@@ -231,7 +235,7 @@ a{
     line-height: 34px;
 }
 .vertical-nav dt{
-    margin: 6px 0 10px;
+    margin-top: 6px;
     padding-top: 15px;
     font-weight: bold;
     color: #b2b2b2;
