@@ -3,11 +3,7 @@
 	position: absolute;
 	background-image: url(../images/home/home-small-icon.png);
 }
-.left-nav-box{
-    position: relative;
-    min-height: 1212px;
-    border-right: 1px solid #dedede;
-}
+
 /*半透明遮照层*/
 .protective-layer{
 	/*display: none;*/
@@ -140,6 +136,10 @@
 }
 
 /*通告（noti-fications）*/
+.noti-fications-box{
+	margin-top: 30px;
+	font-family: "宋体";
+}
 .noti-fications{
 	padding-bottom: 10px;
 	font-size: 13px;
@@ -152,6 +152,7 @@
 .noti-fications li{
 	position: relative;
 	margin-bottom: 20px;
+	border: 1px solid #dedede;
 	background-color: #ffd9b2;
 }
 .noti-fications i{

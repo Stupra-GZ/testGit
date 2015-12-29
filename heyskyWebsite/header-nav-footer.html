@@ -47,14 +47,14 @@
     <script src="./js/index.js"></script>
 </head>
 
-<body>
+<body class="background">
     <div class="header">
-        <div class="width1200 clear">
-            <div class="logo le"></div>
+        <div class="width1200 clear"> 
+            <h1  class="logo-box le"><i></i>专业国际短信</h1>
             <div class="ri">
                 <div class="userinfo-box le">
                     <div class="head-portraits"><img src="./images/header-nav-footer/head-portraits.png" alt="头像"></div>
-                    <div class="mt5"><span class="member-levels">普通会员</span></div>
+                    <div class="mt5 member-levels-box"><span class="member-levels">普通会员</span></div>
                     <div class="mt5"><a class="username" href="#">us1103599025</a></div>
                 </div>
                 <a class="recharge le" href="#"></a>
@@ -62,23 +62,32 @@
             </div>
         </div>
     </div>
-    <div class="width1200 mt15 clear content-box">
-        <div class="le left-nav-box">
+    <!--根据需要剪切li来实现右侧边栏-->
+    <div class="online-consultant-box">
+        <ul class="list-no">
+            <li><i class="online-consultant"></i><span>在线咨询</span></li>
+            <li><i class="qq-service"></i><span>QQ客服</span></li>
+            <li><i class="user-feedback"></i><span>用户反馈</span></li>
+        </ul>
+    </div>
+    <div class="width1200 clear content-box">
+        <!--左侧导航栏.其父元素必须position: relative;方可自适应-->
+        <div class="left-nav-box">
             <dl class="vertical-nav">
-                <dt class=""><i class="home-smallIcon"></i>首页</dt>
-                <dt class="bt"><i class="wireless-marketing"></i>无线营销</dt>
+                <dt class=""><a href="http://localhost/testGit/heyskyWebsite/home.html"><i class="home-smallIcon"></i>首页</a></dt>
+                <dt class="bt"><span><i class="wireless-marketing"></i>无线营销</span></dt>
                     <dd><span>创建营销</span></dd>
                     <dd><a href="#">营销管理</a></dd>
-                <dt class="bt"><i class="brainpower-smallIcon"></i>智能提醒</dt>
+                <dt class="bt"><span><i class="brainpower-smallIcon"></i>智能提醒</span></dt>
                     <dd><a href="#">提醒设置</a></dd>
                     <dd><a href="#">发送消息</a></dd>
-                <dt class="bt"><i class="customer-management"></i>客户管理</dt>
+                <dt class="bt"><span><i class="customer-management"></i>客户管理</span></dt>
                     <dd><a href="#">名录导入</a></dd>
                     <dd><a href="#">名录维护</a></dd>
-                <dt class="bt"><i class="data-img"></i>数据分析</dt>
+                <dt class="bt"><span><i class="data-img"></i>数据分析</span></dt>
                     <dd><a href="#">效果分析</a></dd>
                     <dd><a href="#">客户分析</a></dd>
-                <dt class="bt"><i class="system-setup"></i>系统设置</dt>
+                <dt class="bt"><span><i class="system-setup"></i>系统设置</span></dt>
                     <dd><a href="#">账户充值</a></dd>
                     <dd><a href="#">日报设置</a></dd>
                     <dd><a href="#">速卖通绑定</a></dd>
@@ -88,175 +97,11 @@
                 <div><a class="pr15 br" href="#">产品报价</a><a class="ml15" href="#">常见问题</a></div>
                 <div class="mt10">速卖通旺旺交流群：<span class="phone">1563765460<span></div>
             </div>
-        </div>
+        </div><!--左侧导航栏结束-->
+
+        <!--右侧内容写在这里面，宽度不能超过989px-->
         <div class="list2-self-adaption">
             
-
-               <div class="sand-right">
-            <div class="sand">
-             <p class="sand1">发送记录</p>
-            </div><!--end  sand-->
-             <div class="drop-down">
-              <p>
-                 <select class="set1">
-                          <option><p>全部速卖通账号</p></option> 
-                          <option><p>cn2039022</p></option>  
-                          <option>cn2039021</option>  
-                          <option>cn2039020</option>  
-                  </select>
-                  <label style="margin-left:-18px;">
-                  <p1 class="text1">订单号: </p1><input type="text" style="width:135px;height:25px; outline:none;"/>
-                  </label>
-                  
-                       <p1 class="text2">类型:</p1>
-                  <select class="set2">  
-                          <option>全选</option>  
-                          <option>会员营销</option>  
-                          <option>订单催付</option>  
-                          <option>付款关怀</option> 
-                          option>迟发提醒</option>  
-                          <option>到货提醒</option>  
-                          <option>发货提醒</option>  
-                          <option>退款关怀</option> 
-                          <option>测试短息</option>
-                          <option>日报</option>
-                  </select>
-                  <label >
-                  <p1 class="text2">时间: </p1><input type="text" style="width:140px;height:25px; outline:none;"/><p1 class="tex"> ~ </p1><div class="input"><input type="text" style="width:140px;height:25px; outline:none;" />&nbsp<input type="button" name="" value="搜索" class="but1"></div>
-                  </label>
-                  
-                 </p>
-                  <div class="content">
-                      <table class="content-tab" border="1">
-               <tr>
-                   <th class="font1">接受者</th>
-                   <th class="font2">发送时间</th>
-                   <th class="font3">订单号</th>
-                   <th class="font4">手机号码</th>
-                   <th class="font5">短信类型</th>
-                   <th class="font6">短信内容</th>
-                   <th class="font7">发送结果</th>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-               <tr>
-                   <td><p1 class="text3">us1103599025</p1></td>
-                   <td><p1 class="text3">2015-12-25 16:36</p1></td>
-                   <td><p1 class="text3">68119145557971</p1></td>
-                   <td><p1 class="text3">0034153252</p1></td>
-                   <td><p1 class="text3">订单催付</p1></td>
-                   <td style="width:320px;"><p1 class="text3">[AliExpress]Allow me to congratulate you on the<br/> arrival of thr New Yesr and extend to you all<br/> best wishes for your perfect health and lasting<br>/ prosperity [heysky](167个字符/计费两条短信)</p1></td>
-                   <td ><p1 class="text3">发送成功</p1></td>
-               </tr> 
-
-            </table>
-
-                  <div class="page">
-                      <button id="page-btn-left"></button>
-                        <ul>
-                            
-                            <li class="current">1</li>
-                            <li>2</li>
-                            
-                        </ul>
-                     <button id="page-btn-right"></button>
-                  </div>
-
-             </div><!--end  content-->
-             <div class="text4">
-                 <p1 class="text5" >备注:<p2 class="text6">由于号码错误导致的信息发送失败，海客信使不会收取任何费用。</p2></p1>
-             </div><!--end text4-->
-
-            </div><!--end  drop-down-->
-                      <div class="picture">
-                                   <div><a href="#"><img src="./img/Consultation.jpg"></a></div>
-                                   <div><a href="#"><img src="./img/Custon service.jpg"></a></div>
-                                   <div><a href="#"><img src="./img/Feedback.jpg"></a></div>
-
-                      </div>
-    </div><!--end  sand-right-->
-
-
-
         </div>
     </div>
     <div class="footer">
