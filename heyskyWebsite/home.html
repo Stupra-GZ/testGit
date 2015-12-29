@@ -103,21 +103,21 @@
             </div>
         </div>
     </div>
-    <div class="online-consultant-box">
+    <div class="online-consultant-box position-top">
         <ul class="list-no">
             <li><i class="online-consultant"></i><span>在线咨询</span></li>
             <li><i class="qq-service"></i><span>QQ客服</span></li>
             <li><i class="user-feedback"></i><span>用户反馈</span></li>
         </ul>
     </div>
-    <div class="width1200 clear content-box home-img1">
+    <div class="width1200 clear content-box">
         <div class="left-nav-box">
             <dl class="vertical-nav">
-                <dt class="dt">
-                    <a href="http://localhost/testGit/heyskyWebsite/home.html"><i class="home-smallIcon"></i>首页</a>
+                <dt class="dt selected">
+                    <span><i class="home-smallIcon"></i>首页</span>
                 </dt>
                 <dt class="dt1"><span><i class="wireless-marketing"></i>无线营销</span></dt>
-                    <dd><span>创建营销</span></dd>
+                    <dd><a href="#">创建营销</a></dd>
                     <dd><a href="#">营销管理</a></dd>
                 <dt class="dt1"><span><i class="brainpower-smallIcon"></i>智能提醒</span></dt>
                     <dd><a href="#">提醒设置</a></dd>
@@ -215,13 +215,6 @@
                 $('#submit').click(function(event) {
                     $('#protectiveLayer').css('display', 'none');
                 });
-                // 绑定余额查询box鼠标滑动的显示和隐藏
-                $("#recharge").mouseenter(function(event){
-                    $("#balance-enquiry").css('display', 'block');
-                })
-                 $("#recharge").mouseleave(function(event){
-                    $("#balance-enquiry").css('display', 'none');
-                })
             });
         })();
     </script>

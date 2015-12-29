@@ -3,6 +3,10 @@
 	position: absolute;
 	background-image: url(../images/home/home-small-icon.png);
 }
+.position-top{
+	top: 50%;
+	margin-top: -105px;
+}
 /*半透明遮照层*/
 .home-img{
 	background: url(../images/home/home.png);
@@ -151,6 +155,7 @@
 	width: 100px;
 	border: none;
 	background-color: #0188cc;
+	color: #fff;
 }
 
 /*通告（noti-fications）*/

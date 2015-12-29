@@ -103,15 +103,16 @@ a{
     position: fixed;
     z-index: 1;
     right: 0;
+    top: 50%;
     font-size: 12px;
     text-align: center;
     font-family: "宋体";
 }
 .online-consultant-box li{
     position: relative;
-    width: 60px;
+    width: 69px;
     height: 69px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     border:1px solid #ccc;
     padding-top: 45px;
     background-color: rgba(255,255,255,.7);
@@ -215,7 +216,11 @@ a{
     line-height: 34px;
     font-weight: bold;
 }
-
+.vertical-nav dt.dt span{
+    background-color: #0188cc;
+    color: #fff;
+    
+}
 .vertical-nav{
     width: 209px;
     padding-top: 14px;
@@ -229,7 +234,7 @@ a{
 .vertical-nav dt a{
     color: #b2b2b2;
 }
-.vertical-nav a:hover,.vertical-nav dd span,.vertical-nav dt.selected span{
+.vertical-nav a:hover,.vertical-nav dd span{
     background-color: #0188cc;
     color: #fff;
 }
