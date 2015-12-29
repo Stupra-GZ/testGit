@@ -2,7 +2,7 @@
 * @Author: San
 * @Date:   2015-12-23 14:36:41
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-29 18:15:04
+* @Last Modified time: 2015-12-29 19:20:19
 */
 ul,ol,li{
     list-style:none;
@@ -386,18 +386,21 @@ a{
 }
 .select{
     margin-top: 10px;
-    width: 703px;
+    width: 704px;
     height:100px;
     border:1px solid #dedede;
-    border-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
     border-bottom: none;
 }
 .textarea{
     position:relative; top:-58px;
     width: 700px;
     height: 240px;
+    border:1px solid #dedede;
     border-top:none;
-    border-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
     outline:none;
 }
 .p1{

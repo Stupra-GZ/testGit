@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-24 10:42:57
+* @Last Modified time: 2015-12-29 10:04:30
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -21,53 +21,63 @@ header{
 }
 .center{
     margin:30px auto;
-    width:1200px;
-    height:910px;
+    margin-bottom: 0;
     border:1px solid #DEDEDE;
+    width:1200px;
+    height:885px; 
+    background: #ffffff;   
 }
 /*左边*/
 .center-left{
     float:left;
-    width:210px;
-    height:910px;
     border-right: 1px solid #DEDEDE;
+    width:210px;
+    height:885px;    
+}
+.left-nav-box{
+    position: relative;
+    height: 885px;
 }
 /*右边*/
 .center-right{
     position:relative;
     float:left;
-    height:908px;
+    height:882px;
     width:988px;
     background:#fff;
+    font-family: "宋体";
+    font-size: 14px;
 }
 /*账号设置*/
 .set-up{
+    border-bottom: 1px solid #DEDEDE;
     width:100%;
     height:45px;
-    border-bottom: 1px solid #DEDEDE;
+    font-weight: bold;
 }
 .set-up span{
     display: inline-block;
-    margin:15px 0 0 16px;
+    margin:20px 0 0 16px;
 }
 
 #shop{
-    margin:30px auto;
-    width:955px;
-    height:184px;
+    margin:20px auto;
     border:1px solid #DEDEDE;
+    width:955px;
+    height:184px;    
 }
 .shop-name{
     position:relative;
+    border-bottom: 1px solid #DEDEDE;
     width:100%;
     height:38px;
-    background-color:#F7F7F7;
-    border-bottom: 1px solid #DEDEDE;
+    background-color:#F7F7F7;    
 }
 /*店铺名*/
 .shop-name span{
     display:inline-block;
     padding:12px 0 0 10px;
+    font-weight: bold;
 }
 /*接收号码*/
 #phon-number{
@@ -80,18 +90,28 @@ header{
 }
 #phon-number span{
     padding-left: 24px;
-    background:url(../images/pen.png) no-repeat 0px 3px;
+    background:url(../images/pen.png) no-repeat;
     color:#0188CC;
     cursor:pointer;
+}
+#changes,
+#save,
+#changes-two{
+    display: inline-block;
+    height: 16px;
 }
 /*订阅日报*/
 .subscription{
     margin:30px 0 0 20px;
 }
 .subscription input{
-    margin:0 2px 0 20px;
+    margin:0 2px 0 2px;
+    font-family: "Arial";
 }
 #phon-number #num{
     width:200px;
     border:1px solid #DEDEDE;
+}
+.subscription label{
+    margin-right: 30px;
 }

@@ -40,47 +40,134 @@
     <title>账号绑定</title>
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/public.css" />
     <link rel="stylesheet" href="./css/AccountBinding.css" />
     <script src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/AccountBindings.js"></script>
 </head> 
 <body>
-    <header></header><!--头部 -->
-    <div class="center">
-        <div class="center-left">
-            
+    <!-- 头部 -->
+    <header>
+        <div class="header">
+            <div class="width1200 clear"> 
+                <h1  class="logo-box le"><i></i>专业国际短信</h1>
+                <div class="ri">
+                    <div class="userinfo-box le">
+                        <div class="head-portraits">
+                            <img src="./images/header-nav-footer/head-portraits.png" alt="头像">
+                        </div>
+                        <div class="mt5 member-levels-box">
+                            <span class="member-levels">普通会员</span>
+                        </div>
+                        <div class="mt5">
+                            <a class="username" href="#">us1103599025</a>
+                        </div>
+                    </div>
+                    <a class="recharge le" href="#"></a>
+                    <a class="quit le" href="#"></a>
+                </div>
+            </div>
         </div>
+    </header><!--头部 -->
+    <!--根据需要剪切li来实现右侧边栏-->
+    <div class="online-consultant-box">
+        <ul class="list-no">
+            <li><i class="online-consultant"></i><span>在线咨询</span></li>
+            <li><i class="qq-service"></i><span>QQ客服</span></li>
+            <li><i class="user-feedback"></i><span>用户反馈</span></li>
+        </ul>
+    </div>
+    <!-- 中心 -->
+    <div class="center">
+        <!-- 左边导航 -->
+        <div class="center-left">
+            <div class="left-nav-box">
+                <dl class="vertical-nav">
+                    <dt class="">
+                        <a href="http://localhost/testGit/heyskyWebsite/home.html"><i class="home-smallIcon"></i>首页
+                        </a>
+                    </dt>
+                    <dt class="bt">
+                        <span>
+                            <i class="wireless-marketing"></i>无线营销
+                        </span>
+                    </dt>
+                        <dd><span>创建营销</span></dd>
+                        <dd><a href="#">营销管理</a></dd>
+                    <dt class="bt">
+                        <span>
+                            <i class="brainpower-smallIcon"></i>智能提醒
+                        </span>
+                    </dt>
+                        <dd><a href="#">提醒设置</a></dd>
+                        <dd><a href="#">发送消息</a></dd>
+                    <dt class="bt">
+                        <span>
+                            <i class="customer-management"></i>客户管理
+                        </span>
+                    </dt>
+                        <dd><a href="#">名录导入</a></dd>
+                        <dd><a href="#">名录维护</a></dd>
+                    <dt class="bt">
+                        <span>
+                            <i class="data-img"></i>数据分析
+                        </span>
+                    </dt>
+                        <dd><a href="#">效果分析</a></dd>
+                        <dd><a href="#">客户分析</a></dd>
+                    <dt class="bt">
+                        <span>
+                            <i class="system-setup"></i>系统设置
+                        </span>
+                    </dt>
+                        <dd><a href="#">账户充值</a></dd>
+                        <dd><a href="#">日报设置</a></dd>
+                        <dd><a href="#">速卖通绑定</a></dd>
+                        <dd><a href="#">帐号设置</a></dd>
+                </dl>
+                <div class="product-quotation-box">
+                    <div>
+                        <a class="pr15 br" href="#">产品报价</a>
+                        <a class="ml15" href="#">常见问题</a>
+                    </div>
+                    <div class="mt10">速卖通旺旺交流群：
+                        <span class="phone">1563765460</span>
+                    </div>
+                </div>
+            </div>
+        </div><!-- 左边导航结束 --> 
+        <!-- 右边 -->
         <div class="center-right">
             <!-- 账号绑定 -->
-            <div class="SetUp">
+            <div class="set-up">
                 <span>速卖通账号绑定</span>
             </div>
-            <div id="Added">
+            <div id="added">
                 <button id="newBtn">新增绑定</button>
             </div>
             <!-- 店铺 -->
             <div id="shop">
-                <div class="SetUp">
+                <div class="bound-account">
                     <span>已绑定账号</span>
                 </div>
                 <!-- 第一个店铺 -->
-                <div id="shopName">
-                    <span id="Numbering">cn5698741236</span>
+                <div id="shop-name">
+                    <span id="numbering">cn5698741236</span>
                     <input type="text"  id="name" value="Ann's Store" class="name-one" />
                     <span id="edit">编辑店名</span>
                 </div> 
                 <!-- 第二个店铺 -->
-                <div id="shopName">
-                    <span id="Numbering">cn12345678952369</span>
+                <div id="shop-name">
+                    <span id="numbering">cn12345678952369</span>
                     
-                    <input type="text" value="Ann's Store" id="iptName" />
+                    <input type="text" value="Ann's Store" id="ipt-name" />
                     
                     <span id="save">保存</span>
                 </div>
                 <!-- 第三个店铺 -->
-                <div id="shopName">
-                    <span id="Numbering">cn5692358741</span>
+                <div id="shop-name">
+                    <span id="numbering">cn5692358741</span>
                     
                     <input type="text"  id="name" value="Ann's Store" class="name-two" />
                     <span id="editShopName">编辑店名</span>
@@ -89,9 +176,20 @@
                     店名同时用于短信店铺签名 示例：[ALIEXPRESS]Mery Christmas
                 </span>
             </div>
+        </div><!-- 右边 -->    
+    </div>
+    
+    <!-- 尾部 -->
+    <div class="footer">
+        <div>
+            <a class="pr15 br" href="#">产品报价</a>
+            <a class="ml15 pr15 br" href="#">常见问题</a>
+            <a class="ml15 pr15 br" href="#">隐私条款</a>
+            <a class="ml15" href="#">联系我们</a>
+        </div>
+        <div class="mt10">2015 © 厦门闪通网络技术有限公司( 客服电话：0592-3752092)
         </div>
     </div>
-    <footer></footer><!--尾部 -->
 </body>
 
 </html>
