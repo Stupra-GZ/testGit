@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-28 21:49:32
+* @Last Modified time: 2015-12-29 14:16:12
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin: 0; padding: 0;
@@ -10,11 +10,13 @@ body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th
 *{
     margin: 0;padding: 0;
 }
-ul,ol{
+ul,
+ol{
     list-style: none;
 }
 
-input,button{
+input,
+button{
     border: none;
 }
 header{
@@ -24,32 +26,38 @@ header{
 }
 .center{
     margin: 30px auto;
+    margin-bottom: 0;
     width: 1200px;
-    height: 910px;
+    height: 1100px;
     border: 1px solid #DEDEDE;
+    background: #ffffff;
 }
 /*左边*/
 .center-left{
     float: left;
     width: 210px;
-    height: 910px;
+    height: 1100px;
     border-right: 1px solid #DEDEDE;
+}
+.left-nav-box{
+    position: relative;
+    height: 1100px;
 }
 /*右边*/
 .center-right{
     position: relative;
     float: left;
-    height: 908px;
+    height: 1098px;
     width: 988px;
     background: #fff;
 }
 /*账号设置*/
-.SetUp{
+.set-up{
     width: 100%;
     height: 45px;
     border-bottom: 1px solid #DEDEDE;
 }
-.SetUp span{
+.set-up span{
     display: inline-block;
     margin: 21px 0 0 16px;
     font-family: "宋体";
@@ -94,7 +102,7 @@ header{
     border-bottom: 1px dashed #DEDEDE;
 }
 /*充值内容*/
-.Preferential{
+.preferential{
     margin: 30px 0 0 16px;
     float: left;
     position: relative;
@@ -110,25 +118,25 @@ header{
     height: 326px;
     border: 1px solid #F1881A;
 }
-.Preferential h3{
+.preferential h3{
     font-size: 30px;
     color: #00AEFF;
     text-align: center;
     line-height: 114px;
 }
-.Preferential p{
+.preferential p{
     margin-bottom: 20px;
     font-size: 20px;
     text-align: center;
     color: #F1881A;
 }
-.Preferential span{
+.preferential span{
     padding-left: 22px;
     margin-top: 20px;
     line-height: 22px;
     font-size: 14px;
 }
-.Preferential .three{
+.preferential .three{
     padding-left: 45px;
 }
 /*充值按钮*/

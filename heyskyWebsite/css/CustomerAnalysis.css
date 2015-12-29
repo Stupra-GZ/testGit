@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-28 22:17:28
+* @Last Modified time: 2015-12-29 09:58:36
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -22,8 +22,9 @@ header{
 }
 .center{
     margin:30px auto;
+    margin-bottom: 0;
     width:1200px;
-    height:1734px;
+    height:1750px;
     border:1px solid #DEDEDE;
     background: #ffffff;
 }
@@ -31,18 +32,18 @@ header{
 .center-left{
     float:left;
     width:210px;
-    height:1734px;
+    height:1750px;
     border-right: 1px solid #DEDEDE;
 }
 .left-nav-box{
     position: relative;
-    height: 1608px;
+    height: 1750px;
 }
 /*右边*/
 .center-right{
     position:relative;
     float:left;
-    height:1732px;
+    height:1747px;
     width:988px;
     background:#fff;
 }
