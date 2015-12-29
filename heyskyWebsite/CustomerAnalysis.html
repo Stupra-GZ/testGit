@@ -40,20 +40,62 @@
     <title>客户分析</title>
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/public.css" />
     <link rel="stylesheet" href="./css/CustomerAnalysis.css" />
     <script src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/CustomerAnalys.js"></script>
 </head> 
 <body>
-    <header></header><!--头部 -->
+    <header>
+        <div class="header">
+            <div class="width1200 clear">
+                <div class="logo le"></div>
+                <div class="ri">
+                    <div class="userinfo-box le">
+                        <div class="head-portraits"><img src="./images/header-nav-footer/head-portraits.png" alt="头像"></div>
+                        <div class="mt5"><span class="member-levels">普通会员</span></div>
+                        <div class="mt5"><a class="username" href="#">us1103599025</a></div>
+                    </div>
+                    <a class="recharge le" href="#"></a>
+                    <a class="quit le" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </header><!--头部 -->
     <div class="center">
         <div class="center-left">
-            
+            <div class="le left-nav-box">
+                <dl class="vertical-nav">
+                    <dt class=""><i class="home-smallIcon"></i>首页</dt>
+                    <dt class="bt"><i class="wireless-marketing"></i>无线营销</dt>
+                        <dd><span>创建营销</span></dd>
+                        <dd><a href="#">营销管理</a></dd>
+                    <dt class="bt"><i class="brainpower-smallIcon"></i>智能提醒</dt>
+                        <dd><a href="#">提醒设置</a></dd>
+                        <dd><a href="#">发送消息</a></dd>
+                    <dt class="bt"><i class="customer-management"></i>客户管理</dt>
+                        <dd><a href="#">名录导入</a></dd>
+                        <dd><a href="#">名录维护</a></dd>
+                    <dt class="bt"><i class="data-img"></i>数据分析</dt>
+                        <dd><a href="#">效果分析</a></dd>
+                        <dd><a href="#">客户分析</a></dd>
+                    <dt class="bt"><i class="system-setup"></i>系统设置</dt>
+                        <dd><a href="#">账户充值</a></dd>
+                        <dd><a href="#">日报设置</a></dd>
+                        <dd><a href="#">速卖通绑定</a></dd>
+                        <dd><a href="#">帐号设置</a></dd>
+                </dl>
+                <div class="product-quotation-box">
+                    <div><a class="pr15 br" href="#">产品报价</a><a class="ml15" href="#">常见问题</a></div>
+                    <div class="mt10">速卖通旺旺交流群：<span class="phone">1563765460</span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="center-right">
             <div id="top"><!-- 客户分析 -->
-                客户分析
+                <span>客户分析</span>
                 <div class="account-switching"><!-- 账号 -->
                     <input type="text" value="切换账号" id="account-txt"/>
                     <button id="switching-btn"></button>
@@ -160,7 +202,7 @@
                 </div> 
             </div>
             <!-- 购买高峰时段  -->
-            <div class="peakHours">
+            <div class="peak-hours">
                 <div class="added">购买高峰时段</div>
                 <div class="timer">
                     <span>时间</span>
@@ -216,7 +258,10 @@
             </div>
         </div>
     </div>
-    <footer></footer><!--尾部 -->
+    <div class="footer">
+        <div><a class="pr15 br" href="#">产品报价</a><a class="ml15 pr15 br" href="#">常见问题</a><a class="ml15 pr15 br" href="#">隐私条款</a><a class="ml15" href="#">联系我们</a></div>
+        <div class="mt10">2015 © 厦门闪通网络技术有限公司(客服电话：0592-3752092)</div>
+    </div>
 </body>
 
 </html>
