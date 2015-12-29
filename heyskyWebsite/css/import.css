@@ -2,13 +2,13 @@
 * @Author: San
 * @Date:   2015-12-22 15:35:55
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-26 09:20:24
+* @Last Modified time: 2015-12-29 18:20:16
 */
 .Dir-right{
   width:994px;
   height:1277px;
-  border-right: 1px solid #dedede;
-  border-bottom:1px solid #dedede;
+  margin:auto;
+  border:1px solid #dedede;
 }
 .Directories{
     width:993px;
@@ -23,16 +23,16 @@
 .number{
     width:171px;
     height:32px;
-    position: absolute; top:16px; right:360px;
+    position: relative; top:-43px; left:802px;
 }
 .Example{
-    margin:28px 23px ;
+    margin:28px 16px ;
     width:956px;
     height:274px;
     border:1px solid #dedede;
 }
 .excel{
-    position: absolute; top:120px; left:255px;
+    position: relative; top:-248px; left:225px;
     color:#32c2cd;
     font-weight:bold;
     font-size:20px;
@@ -42,11 +42,11 @@
     width:414px;
     height:100px;
     border-left:1px solid #dedede;
-    position: absolute; top:95px; left:355px;
+    position: relative; top:-270px; left:331px;
 
 }
 .tab1{
-    margin:10px 10px;
+    margin: -54px 10px;
     border-collapse: collapse;
     border:1px solid #dedede;
 }
@@ -57,16 +57,16 @@
     color:#4d4d4d;
 }
 .txt{
-    position: absolute; top:260px; left:480px;
-    color:#32c2cd;
+    position: relative; top:-206px; left:463px;
+    color:#2590cf;
     font-weight:bold;
     font-size:20px; 
 }
 .table2{
+    position: relative; top:-283px; left:544px;
     width:414px;
     height:100px;
     border-left:1px solid #dedede;
-    position: absolute; top:250px; left:560px;
 }
 .tab2{
     margin:10px 10px;
@@ -87,21 +87,30 @@
     background:#0188cc;
     font-size:17px;
     color:#fff;
+    cursor: pointer;
 } 
 .opinion{
-    display:inline;
-    position:absolute; left:1111px; top:350px;
+    width:69px;
+    height:69px;
+    position: relative; left:1090px; top:-40px;
+    display:block;
 }
 span{
      font-size:16px;
      color:#fff;
 }
 .preview{
-    margin-top:75px;
-    width:993px;
+    margin:-10px 16px;
+    width:957px;
     height:30px;
     border:1px solid #dedede;
-    background:#fff;
+    background:#f5f5f5;
+}
+.big-tab{
+    width:957px;
+    height:819px;
+    margin:8px 16px;
+    border-top: 1px solid #dedede;
 }
 .dir2{
     margin:6px 16px;
@@ -111,16 +120,20 @@ span{
     margin:10px 50px;
 }
 .text1{
-    position:absolute; top:465px; left:90px;
+    position: relative; top:-37px; left:30px;
 }
 .text2{
-    position:absolute; top:476px; left:150px;
+    position: relative; top:-79px; left:86px;
     border:1px solid #dedede;
     background:#fff;
     outline:none;
     width:55px;
     height:30px;
     font-size:15px;
+    cursor: pointer;
+}
+.form{
+    margin-top: -30px;
 }
 .text3{
     border:1px solid #dedede;
@@ -145,10 +158,11 @@ span{
     width:260px;
     height:123px;
     background:#fff;
-    position:absolute;top:514px;left:40px;
+    position: absolute;top:535px;left:503px;
 }
 .preview-tab{
     margin-left: -20px;
+    margin-top: -67px;
     overflow-y:scroll;
 }
 .div{
@@ -163,8 +177,8 @@ span{
     border:1px solid #dedede; 
 }
 .but{
+    position: relative; top:23px; left:450px;
     display:inline;
-    position:absolute; top:1200px; left:450px;
 }
 .pre{
     width:70px;
@@ -173,4 +187,5 @@ span{
     background:#0188cc;
     font-size:17px;
     color:#fff;
+    cursor: pointer;
 }
