@@ -8,14 +8,8 @@
 	margin-top: -105px;
 }
 /*半透明遮照层*/
-.home-img{
-	background: url(../images/home/home.png);
-}
-.home-img1{
-	background: url(../images/home/home1.png);
-}
 .protective-layer{
-	display: none;
+	/*display: none;*/
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -32,7 +26,7 @@
 	height: 428px;
 	margin-left: -260px;
 	border:1px solid #ccc;
-	/*background-image: url(../images/home/material-perfect-background.png);*/
+	background-image: url(../images/home/material-perfect-background.png);
 	color: #4c4c4c;
 	font-family: "宋体";
 }
@@ -59,6 +53,12 @@
 	padding-right: 221px;
 	text-align: right;
 }
+.material-input label,.material-input1 label,.material-input2 label{
+	display: inline-block;
+	position: absolute;
+	width: 77px;
+	margin: 9px 0 0 -78px;
+}
 .material-input input,.material-input1 input,.material-input2 input{
 	width: 180px;
 	height: 30px;
@@ -84,7 +84,7 @@
 }
 .open-remind{
 	margin-top: 6px;
-	text-indent: 48px;
+	text-indent: 47px;
 }
 .submit-box{
 	margin: 16px 0 0 230px;
@@ -121,6 +121,14 @@
 }
 .send-Messages{
 	margin:19px 10px 0;
+}
+.send-Messages i{
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 28px;
+	margin:-29px 0 0 85px;
+	background: url(../images/home/send-Messages-img.png);
 }
 .phone-number-input,.send-Messages select,.send-Messages textarea{
 	border: 1px solid #dedede;
@@ -196,9 +204,18 @@
 	padding-bottom: 10px;
 	text-align: right;
 }
+.switch-account-box i{
+	display: inline-block;
+	position: absolute;
+	width: 29px;
+	height: 30px;
+	margin:1px 0 0 -31px;
+	background: url(../images/home/switch-account-img.png);
+}
 .switch-account{
 	width: 168px;
 	height: 32px;
+	border: 1px solid #dedede;
 }
 .battlelog-details{
 	width: 936px;

@@ -1,3 +1,4 @@
+
 /*
 
 */
@@ -10,7 +11,7 @@ a{
 
 .content-box{
     position: relative;
-    min-height: 1012px;
+    min-height: 1098px;
     margin-top: 30px;
     border: 1px solid #dedede;
     background-color: #fff;
@@ -150,9 +151,8 @@ a{
     background-color: #3d3d3d;
 }
 .logo-box{
-    width: 294px;
-    height: 66px;
-    margin-top: -1px;
+    width: 296px;
+    height: 64px;
     background: url(../images/header-nav-footer/logo.png);
 }
 .head-portraits{
@@ -160,11 +160,11 @@ a{
     overflow: hidden;
     width: 50px;
     height: 50px;
-    margin: -5px 0 0 -59px;
+    margin: -7px 0 0 -59px;
     border-radius: 25px;
 }
 .userinfo-box{
-    margin: 15px 24px 0 0;
+    margin: 14px 24px 0 0;
     color: #fff;
 }
 .username-box{
@@ -287,6 +287,7 @@ a{
     position: absolute;
     left: 0;right: 0;
     bottom: 29px;
+    text-align: center;
 }
 .product-quotation-box a,.footer a{
     color: #4c4c4c;
@@ -298,10 +299,18 @@ a{
 
 /*页脚（footer）*/
 .footer{
-    padding: 76px 0 30px 0;
+    padding: 68px 0 22px 0;
+}
+.footer a{
+    padding: 0 11px 0 12px;
+}
+.footer div.div1{
+    text-indent: 458px;
+}
+.footer div.div2{
+    text-indent: 432px;
 }
 .footer,.product-quotation-box{
-    text-align: center;
     font-family: "宋体";
     font-size: 12px;
     color: #4d4d4d;

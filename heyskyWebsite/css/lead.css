@@ -1,13 +1,12 @@
 .ml5{
     margin-left: 5px;
 }
-.lead-img{
-    background: url(../images/lead/lead-img.png);
-}
 .focus-img{
     height: 500px;
     background: url(../images/lead/focus.png);
 }
+.ml6{
+    margin-left: 6px;
 }
 /*引导页(lead)*/
 em{
@@ -27,6 +26,9 @@ em{
     width: 295px;
     height: 64px;
     background: url(../images/lead/lead-logo.png);
+}
+.header-login{
+    margin-right: 1px;
 }
 .loding-type{
     width: 120px;
@@ -49,9 +51,8 @@ em{
     background-image: url(../images/lead/sky1.png);
 }
 .focus-picture{
-    width: 708px;
-    height: 329px;
-    margin: 90px 0 0 57px;
+    width: 800px;
+    height: 500px;
     background-image: url(../images/lead/focus-picture.png);
 }
 .landing-box{
@@ -60,8 +61,8 @@ em{
     height: 320px;
     margin:90px 31px 0 0;
     border-radius: 9px;
-    padding: 20px 26px 0;
-    background-color: rgba(255,255,255,.1);
+    padding: 20px 26px 0 27px;
+    background-color: rgba(255,255,255,.5);
     color: #fff;
     font-family: "宋体";
     font-size: 12px;
@@ -107,7 +108,7 @@ em{
     text-indent: 35px;
 }
 .landing-button{
-    margin-top: 10px;
+    margin-top: 11px;
 }
 .landing-button input{
     width: 100%;
@@ -121,9 +122,10 @@ em{
 }
 .landing-content a{
     color: #fffc00;
+    font-weight: 600;
 }
 .register-now{
-    margin-top: 18px;
+    margin-top: 17px;
 }
 .aliexpress-landing{
     margin-top: 25px;
@@ -161,9 +163,7 @@ em{
 }
 
 
-.lead3{
-    background: url(../images/lead/lead3.png);
-}
+
 .marketing-case h2{
     padding-top: 58px;
     text-align: center;
@@ -195,6 +195,7 @@ em{
     border-right: 1px solid #ccc;
     text-align: left;
     text-indent: 10px;
+    font-weight: bold;
 }
 .case-data th{
     padding-top: 13px;
