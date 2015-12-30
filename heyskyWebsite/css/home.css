@@ -176,7 +176,7 @@
 .noti-fications{
 	padding-bottom: 10px;
 	font-size: 13px;
-	line-height: 30px;
+	line-height: 32px;
 	text-indent: 10px;
 }
 .noti-fications a{
@@ -184,6 +184,7 @@
 }
 .noti-fications li{
 	position: relative;
+	height: 32px;
 	margin-bottom: 20px;
 	border: 1px solid #dedede;
 	background-color: #ffd9b2;
