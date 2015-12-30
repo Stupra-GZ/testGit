@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-29 14:42:11
+* @Last Modified time: 2015-12-30 19:50:13
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -46,12 +46,13 @@ header{
     height:1747px;
     width:988px;
     background:#fff;
+    background:url(../images/kehu.png) no-repeat;
 }
 /*客户分析字符串*/
 #top{
     padding-left: 15px;
     position:relative;
-    height:45px;
+    height:46px;
     width:988px;
     border-bottom: 1px solid #DEDEDE;
     font-family: "微软雅黑";
@@ -111,15 +112,15 @@ header{
 }
 .data-analysis{
     margin:20px auto;
-    width:955px;
-    height:778px;
+    width:960px;
+    height:780px;
     border:1px solid #DEDEDE;
     font-family: "微软雅黑";
     font-size: 13px; 
 }
 /*国家分布字符窜*/
 .added{
-    padding-left: 20px;
+    padding-left: 13px;
     width:100%;
     height:38px;
     background:#F7F7F7;
@@ -143,35 +144,52 @@ header{
 }
 .timer ul{
     position:absolute;
-    left:70px;
-    top:16px;
+    left:57px;
+    top:17px;
     border:1px solid #DEDEDE;
 
 }
 /*时间列表*/
 .timer ul li{
-    padding:8px 43px;
     margin-left: -1px;
     float:left;
+    height:32px;
     border-left: 1px solid #DEDEDE;
     background: #ffffff;
+    text-align: center;
+    line-height: 32px;
     cursor: pointer;
 }
 .timer ul li.timer-current{
     color:#0188CC;
     font-weight: bold;
 }
-.timer ul li:last-child{
-    padding:0;
-    height:30px;
-}
-#sel{
-    padding:0 10px;
-    height:30px;
+
+.sel{
+    padding-left: 10px;
+    width:208px;
+    height:28px;
     border:none;
 }
+.first-ul li{
+    width:105px;
+}
+.first-ul li:last-child{
+    width:212px;
+    height:30px;
+}
+.senced-ul li{
+    width:105px;
+}
+.senced-ul li:last-child{
+    width:123px;
+}
+#ect{
+
+    width:121px;
+}
 .countries{
-    height:674px;
+    height:677px;
     width:100%;
     background:#FFFFFF;
     border-bottom: 1px solid #DEDEDE;
@@ -270,8 +288,8 @@ header{
 /*购买高峰时段*/
 .peak-hours,.client{
     margin:0 auto;
-    width:955px;
-    height:466px;
+    width:958px;
+    height:492px;
     border:1px solid #DEDEDE;
 }
 /*趋势*/
@@ -299,13 +317,13 @@ header{
     font-weight: bold;   
 }
 .left{
-    left:220px;
-    top:30px;
+    left:221px;
+    top:29px;
     color:#0188CC;
 }
 .right{
-    top:30px;
-    right:220px;
+    top:29px;
+    right:214px;
 }
 /*新客户*/
 .new{
@@ -319,8 +337,8 @@ header{
 .old{
     width:67px;
     height:89px;
-    right:206px;
-    top:60px;
+    right:203px;
+    top:61px;
     background:url(../images/Customer_r1_c3.png) no-repeat;
 }
 .orders-left,.orders-right{
@@ -329,23 +347,25 @@ header{
     bottom:52px; 
 }
 .orders-left{
-    left:186px;    
+    left:188px;    
 }
 .orders-right{
-    right:200px;
+    right:188px;
 }
 .orders-left span{
+    display:inline-block;
+    margin-left:0;
     color:#0188CC;
 }
 .new-left,.old-right{
     position:absolute;
-    top:94px;
+    top:90px;
     font-size: 30px; 
 }
 .new-left{
-    left:286px;
+    left:283px;
     color:#0188CC; 
 }
 .old-right{
-    right:104px; 
+    right:114px; 
 }
