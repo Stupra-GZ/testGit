@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-29 14:16:12
+* @Last Modified time: 2015-12-30 18:08:02
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin: 0; padding: 0;
@@ -50,11 +50,12 @@ header{
     height: 1098px;
     width: 988px;
     background: #fff;
+    background:url(../images/cz.png) no-repeat;
 }
 /*账号设置*/
 .set-up{
     width: 100%;
-    height: 45px;
+    height: 46px;
     border-bottom: 1px solid #DEDEDE;
 }
 .set-up span{
@@ -70,20 +71,20 @@ header{
     margin: 0 auto;
     margin-bottom: 10px;
     width: 955px;
-    height: 50px;
+    height: 52px;
     border-bottom: 1px solid #F1881A;
     font-family: "宋体";
 }
 /*充值服务列表*/
 .recharge-one ul{
     position: absolute;
-    left: 36px;
+    left: 23px;
     bottom: -1px;
 }
 .recharge-one ul li{
     float: left;
-    width: 104px;
-    height: 30px;
+    width: 106px;
+    height: 29px;
     text-align: center;
     line-height: 30px;
     cursor: pointer;
@@ -97,18 +98,19 @@ header{
 
 .service{
     margin: 0 auto;
-    width: 955px;
+    width: 968px;
     height: 395px;
     border-bottom: 1px dashed #DEDEDE;
 }
 /*充值内容*/
 .preferential{
-    margin: 30px 0 0 16px;
+    margin: 34px 15px 0 12px;
     float: left;
     position: relative;
-    width: 300px;
+    width: 299px;
     height: 326px;
     border: 1px solid #00AEFF;
+    color: #5e5e5e;
 }
 .yelloBox{
     position: absolute;
@@ -119,32 +121,56 @@ header{
     border: 1px solid #F1881A;
 }
 .preferential h3{
-    font-size: 30px;
-    color: #00AEFF;
-    text-align: center;
-    line-height: 114px;
+    position:absolute;
+    
 }
-.preferential p{
-    margin-bottom: 20px;
-    font-size: 20px;
-    text-align: center;
-    color: #F1881A;
+.h{
+    left:28px;
+    top:50px;
+    cursor:pointer;
 }
+.h2{
+    left:23px;
+    top:50px;
+}
+.h3{
+    left:2px;
+    top:50px;
+}
+.preferential .p1{
+    position:absolute;
+    left:76px;
+    top:108px;
+    cursor:pointer;
+}
+
 .preferential span{
-    padding-left: 22px;
-    margin-top: 20px;
+    position:absolute;
+    left:20px;
+    font-family: "黑体";
     line-height: 22px;
-    font-size: 14px;
+    font-size: 16px;
+}
+.s2{
+    top:154px;
+}
+.s3{
+    top:178px;
 }
 .preferential .three{
-    padding-left: 45px;
+    left:43px;
+    top:201px;
+}
+.preferential .four{
+    left:20px;
+    top:226px;
 }
 /*充值按钮*/
 #btnOne{
     position: absolute;
     left: 50%;
-    margin-left: -60px;
-    bottom: 30px;
+    margin-left: -62px;
+    bottom: 27px;
     width: 120px;
     height: 32px;
     background: #F1881A;
@@ -167,6 +193,22 @@ header{
     font-family: "宋体";
     font-size: 12px;
 }
+/*列宽*/
+.first-column{
+    width:203px; 
+}
+.second-column{
+    width: 170px;
+}
+.third-column{
+    width: 213px;
+}
+.fourth-column{
+    width: 167px;
+}
+.fifth-column{
+    width: 204px;
+}
 #recharge-btn{
     width: 66px;
     height: 24px;
@@ -176,31 +218,51 @@ header{
     color: #FFFFFF;
     cursor: pointer;
 }
+th{
+    height:42px;
+    line-height: 42px;
+    border:1px solid #cccccc;
+}
 .box{
     position: absolute;
 }
 /*自定义充值金额*/
 .money{
+    position:relative;
     margin: 38px auto;
     width: 955px;
     height: 160px;
+    font-family: "宋体";
     font-size: 14px;
 }
 .money label{
-    font-size: 16px;
     font-weight: bold;
 }
-.money input{
+.txt-num{
+    position:absolute;
+    left:-1px;
+    top:36px;
+}
+#custom-txt{
+    position:absolute;
+    left:117px;
+    top:26px;
     padding-left: 10px;
-    height: 28px;
+    height: 30px;
+    width:150px;
     border: 1px solid #DEDEDE;
 }
+
 #atOnceBtn{
-    margin-left: 20px;
-    width: 94px;
-    height: 30px;
+    position:absolute;
+    left:288px;
+    top:25px;
+    width: 93px;
+    height: 32px;
     background: #0188CC;
-    font-family: "微软雅黑";
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -209,10 +271,20 @@ table,td{
     border: 1px solid #ccc; 
     border-collapse: collapse;
 }
+
 #tab{
-    margin-top: 20px;
+    position:absolute;
+    top:77px;
+    font-family: "宋体";
     text-align: center;
     line-height: 30px;
+}
+th{
+    width:150px;
+    height:32px;
+    line-height: 32px;
+    font-weight: 100;
+    border: 1px solid #cccccc;
 }
 #tab a{
     text-decoration: none;

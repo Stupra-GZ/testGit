@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-29 10:26:45
+* @Last Modified time: 2015-12-30 19:53:30
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -17,7 +17,6 @@ body{
 ul,ol{
     list-style: none;
 }
-input,
 button{
     border:none;
 }
@@ -57,16 +56,17 @@ header{
     height:883px;
     width:988px;
     background:#fff;
+    background:url(../images/set.png) no-repeat;
 }
 /*账号设置*/
-.SetUp{
+.set-up{
     width: 100%;
-    height: 45px;
+    height: 46px;
     border-bottom: 1px solid #DEDEDE;
 }
-.SetUp span{
+.set-up span{
     display: inline-block;
-    margin: 21px 0 0 16px;
+    margin: 21px 0 0 17px;
     font-family: "宋体";
     font-size: 14px;
     font-weight: bold;
@@ -74,7 +74,10 @@ header{
 .logo-one,.PhoneVerification{
     position:relative;
     width:100%;
-    height:228px;
+    height:230px;
+}
+.PhoneVerification{
+    height:236px;
 }
 .logo-one label,
 .PhoneVerification label{
@@ -82,15 +85,47 @@ header{
     font-size: 14px;
     font-weight: bold;
 }
+.txt-one{
+    position:absolute;
+    left:53px;
+    top: 122px;
+}
+#txt{
+    position:absolute;
+    left:127px;
+    top: 114px;
+    padding-left: 10px;
+    width:220px;
+    height:30px;
+    border:1px solid #cccccc;
+}
+.phone{
+    position:absolute;
+    left:67px;
+    top: 29px;
+    color: #4d4d4d;
+}
+#txt-num{
+    position:absolute;
+    padding-left: 10px;
+    left:127px;
+    top: 20px;
+    border:1px solid #cccccc;
+    height:30px;
+    width:220px;
+}
 #logoName{
     position:absolute;
-    left:66px;
-    top:54px;
+    left:69px;
+    top:53px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
 }
 #logoPic{
     position:absolute;
-    left:132px;
-    top:28px;
+    left:134px;
+    top:30px;
     width:57px;
     height:57px;
     background:url(../images/logo.png) no-repeat;
@@ -110,9 +145,11 @@ header{
     border: 1px solid #DEDEDE;
 }
 /*保存按钮*/
-#btn,#passwordBtn{
+#btn,
+#passwordBtn,
+#btn-two{
     position:absolute;
-    left:170px;
+    left:172px;
     bottom:20px;
     width:88px;
     height:36px;
@@ -141,17 +178,27 @@ header{
 /*获取验证码按钮*/
 #verificationBtn{
     position:absolute;
-    top:70px;
-    left:129px;
+    top:65px;
+    left:127px;
     width:120px;
     height:30px;
     background:#F1881A;
     font-family: "宋体";
+    font-size: 12px;
     color:#FFFFFF;
     cursor:pointer;
 }
+.maka{
+    position:absolute;
+    left:68px;
+    top: 119px;
+}
 #security-code{
-    margin-left: 9px;
+    position:absolute;
+    left:127px;
+    top:110px;
+    width:120px;
+    height:30px;
 }
 /*验证码*/
 #SecurityCode{
@@ -161,6 +208,10 @@ header{
     width:120px;
     height:28px;
     border:1px solid #DEDEDE;
+}
+#btn-two{
+    left:172px;
+    top:170px;
 }
 /*密码*/
 #password{
@@ -172,49 +223,66 @@ header{
     font-family: "宋体";
     font-size: 14px;
 }
-#loginPassword label{
+.delu{
+    position:absolute;
+    left:52px;
+    top: 29px;
     font-weight: bold;
 }
-/*登录密码*/
-#loginPassword{
+#login-password{
     position:absolute;
-    left:46px;
-    top:30px;
+    left:126px;
+    top: 23px;
+    width:220px;
+    height:30px;
+    font-size: 28px;
+    color:#000000;
+    border:none;
+}
+/*登录密码*/
+.dang{
+    position:absolute;
+    left:47px;
+    top:74px;
 }
 
 /*当前密码*/
-#currentPassword{
+#current-password{
     position:absolute;
-    left:46px;
-    top:74px;
+    left:118px;
+    top:65px;
+    width:220px;
+    height:30px;
 }
 /*新密码*/
-#nuwPassword{
+.new-ma{
     position:absolute;
-    left:60px;
-    top:114px;
+    left:61px;
+    top:116px;
 }
-#currentPassword input,
-#nuwPassword input,
-#confirmPassword input,
-#loginPassword input{
-    margin-left: 10px;
-    width: 220px;
-    height: 30px;
-    border: 1px solid #DEDEDE;
-    font-size: 24px;
-    color: #000000;
+#nuw-password{
+    position:absolute;
+    left:118px;
+    top:107px;
+    width:220px;
+    height:30px;
 }
-#loginPassword input{
-    border:none;
-}
+
 /*确认密码*/
-#confirmPassword{
+.que{
     position:absolute;
-    left:46px;
-    top:154px;
+    left:47px;
+    top:158px;
+}
+#confirm-password{
+    position:absolute;
+    left:118px;
+    top:149px;
+    width:220px;
+    height:30px;
 }
 /*密码保存按钮*/
 #passwordBtn{
-    top: 214px;
+    left:172px;
+    top: 210px;
 }

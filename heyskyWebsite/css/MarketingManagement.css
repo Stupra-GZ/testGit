@@ -2,7 +2,7 @@
 * @Author: miles
 * @Date:   2015-12-21 19:33:25
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-12-29 10:46:25
+* @Last Modified time: 2015-12-30 17:54:49
 */
 body, div ,a ,dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { 
     margin:0; padding:0;
@@ -47,74 +47,104 @@ header{
     background:#fff;
     font-family: "宋体";
     font-size: 14px;
+    background: url(../images/marketing.png) no-repeat;
 }
 /*营销管理*/
 .set-up{
     width:100%;
-    height:45px;
+    height:46px;
     border-bottom: 1px solid #DEDEDE;
     font-weight: bold;
 }
 .set-up span{
     display: inline-block;
-    margin:20px 0 0 16px;
+    margin:22px 0 0 17px;
 }
 /*计划*/
 .plan{
-    margin:30px 0;
-    height:50px;
+    position: relative;
+    width:100%;
+    height:80px;
 }
-.plan-name,
-.created,#btn{
-    float:left;
-    margin-left:30px;
+.plan span{
+    position: absolute;
+    left:558px;
+    top:35px;
 }
-.plan-name label,
-.created label{
+#btn{
+    position:absolute;
+    top:21px;
+    right:176px;
+    width:60px;
+    height:30px;
+    background: #0188cc;
+    border: none;
+    color: #ffffff;
+}
+#label-one,
+.time{
+    position:absolute;
+    left:31px;
+    top:30px;
     font-weight: bold;
 }
-.tilde{
-    position: relative;
-    top: 10px;
+#plan-txt,
+#time-txt{
+    position: absolute;
+    left:103px;
+    top:21px;
+    width:199px;
+    height:30px;
 }
-#plan-txt{
-    width:198px;
-    height:28px;
+.time{
+    left:323px;
 }
-#time-txt-one,#time-txt-two{
-    padding-left: 10px;
-    width: 158px;
-    height: 28px;
-    background: url(../images/biao.png) no-repeat 128px 5px;
-    border: 1px solid #bbb; 
+#time-txt,
+#time-txt-two{
+    left:395px;
+    padding-left: 7px;
+    width:159px;
+    background:url(../images/biao.png) no-repeat 133px 6px;
+    border:1px solid #dedede;
 }
-/*搜索按钮*/
-#btn{
-    margin-left: 20px;
-    border: none;
-    width: 60px;
-    height: 30px;
-    background-color: #0188CC;
-    color: #FFFFFF;
-    cursor: pointer;
+#time-txt-two{
+    position:absolute;
+    left:573px;
+    top:21px;
+    height:30px;
 }
 /*表格*/
-table,td{
+table,td {
     border:1px solid #ccc; 
     border-collapse: collapse;
 }
-#tab{
-    margin:0 auto;
+/*#tab{
+    width:958px;
+    height: 629px;
     font-size: 12px;
     text-align: center;
     line-height: 50px;
+}*/
+table {
+    margin-left: 16px;
+    width:958px;
+    height: 629px;
+    font-size: 12px;
+    text-align: center;
 }
-.first,
-.two,
-.three,
-.four,
-.five{
-    width: 158px;
+th {
+    border:1px solid #dedede;
+    line-height: 43px;
+    width: 159px;
+    height:43px;
+    font-size: 14px;
+}
+.item-one{
+    height:38px;
+    line-height: 38px;
+}
+.six{
+    width:162px;
 }
 .first-row{
     font-size: 14px;
@@ -142,24 +172,30 @@ table,td{
 }
 /*备注*/
 .remark{
+    position:relative;
     float: right;
-    margin: 10px 8px 0 0;
+    margin: 5px 5px 0 0;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 20px;
 }
 .remark span:first-child{
     color:#FF0000;
 }
+
 .remark span:last-child{
-    padding-left: 42px;
+    padding-left: 35px;
+}
+.s1{
+    position:absolute;
+    left:35px;
 }
 /*翻页*/
 .page{
     position:absolute;
     left:50%;
-    bottom:30px;
-    margin-left: -162px;
-    width:104px;
+    bottom:39px;
+    margin-left: -157px;
+    width:108px;
     height:28px;    
 }
 .page ul li,
@@ -168,7 +204,7 @@ table,td{
     float:left;
     margin-left: -1px;
     border:1px solid #DEDEDE;
-    width:26px;
+    width:28px;
     height:28px;
     text-align: center; 
     line-height: 28px;
