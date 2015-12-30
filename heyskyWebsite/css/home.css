@@ -150,10 +150,12 @@
 }
 .phone-number-input{
 	width: 142px;
+	text-indent: 10px;
 }
 .send-Messages textarea{
 	width: 258px;
 	height: 90px;
+	resize: none;
 }
 .send-note-submit-box{
 	margin-top: 11px;
@@ -216,11 +218,14 @@
 	width: 168px;
 	height: 32px;
 	border: 1px solid #dedede;
+	color: #b2b2b2;
+	font-size: 13px;
 }
 .battlelog-details{
 	width: 936px;
 	margin-right: -1px;
 	padding: 19px 10px 0;
+	color: #fff;
 }
 .battlelog-details p span{
 	font-size: 36px;

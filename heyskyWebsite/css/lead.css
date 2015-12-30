@@ -22,6 +22,9 @@ em{
     border-bottom: 1px solid #434343;
     background-color: #3d3d3d;
 }
+.header-lead > div{
+    background-color: #3d3d3d;
+}
 .lead-logo-box{
     width: 295px;
     height: 64px;
@@ -49,6 +52,9 @@ em{
 .focus-picture-box{
     height: 500px;
     background-image: url(../images/lead/sky1.png);
+}
+.focus-picture-box > div{
+    background-image: url(../images/lead/sky2.png);
 }
 .focus-picture{
     width: 800px;
@@ -156,6 +162,9 @@ em{
     height: 760px;
     background-color: #fafafa;
     line-height: 0px;
+}
+.cellphone-exhibition > div,.marketing-case > div{
+    background-color: #fafafa;
 }
 /*功能介绍（subtool）*/
 .order-payment{
