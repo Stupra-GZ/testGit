@@ -1,7 +1,7 @@
+
 /*
 
 */
-
 body.background{
     background: url(../images/header-nav-footer/background.png);
 }
@@ -11,7 +11,7 @@ a{
 
 .content-box{
     position: relative;
-    min-height: 1012px;
+    min-height: 1098px;
     margin-top: 30px;
     border: 1px solid #dedede;
     background-color: #fff;
@@ -60,17 +60,11 @@ a{
 .br{
     border-right: 1px solid #4d4d4d;
 }
-.bt{
-    border-top: 1px solid #dedede;
-}
 .b-no{
     border:none;
 }
 .red{
     color: red;
-}
-.white{
-    color: white;
 }
 .fz12{
     font-size: 12px;
@@ -85,7 +79,7 @@ a{
     list-style: none;
 }
 .list2-self-adaption{
-    margin-left: 209px;
+    margin-left: 210px;
     overflow: hidden;
     /*display: table-cell;
     width: 2000px;*/
@@ -110,15 +104,16 @@ a{
     position: fixed;
     z-index: 1;
     right: 0;
+    top: 50%;
     font-size: 12px;
     text-align: center;
     font-family: "宋体";
 }
 .online-consultant-box li{
     position: relative;
-    width: 60px;
+    width: 69px;
     height: 69px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     border:1px solid #ccc;
     padding-top: 45px;
     background-color: rgba(255,255,255,.7);
@@ -155,20 +150,12 @@ a{
     border: 1px solid #454545;
     background-color: #3d3d3d;
 }
-.logo-box{
-    height: 30px;
-    margin-left: 161px;
-    padding: 28px 0 6px 0;
-    color: #f1881a;
-    font-size: 24px;
-    font-family: "[Tensentype]";
+.header > div{
+    background-color: #3d3d3d;
 }
-.logo-box i{
-    display: inline-block;
-    position: absolute;
-    width: 165px;
-    height: 30px;
-    margin: -6px 0 0 -161px;
+.logo-box{
+    width: 296px;
+    height: 64px;
     background: url(../images/header-nav-footer/logo.png);
 }
 .head-portraits{
@@ -176,16 +163,18 @@ a{
     overflow: hidden;
     width: 50px;
     height: 50px;
-    margin-left: -58px;
+    margin: -7px 0 0 -59px;
     border-radius: 25px;
 }
 .userinfo-box{
-    margin: 8px 20px 0 0;
-}
-.username,.member-levels{
+    margin: 14px 24px 0 0;
     color: #fff;
 }
+.username-box{
+    margin-top: 7px;
+}
 .username{
+    color: #fff;
     font-size: 14px;
 }
 .member-levels-box{
@@ -217,9 +206,27 @@ a{
     left: 0;
     border-right: 1px solid #dedede;
 }
+.vertical-nav dt.dt1{
+    margin-top: 6px;
+    border-top: 1px solid #dedede;
+    padding-top: 6px;
+    font-weight: bold;
+    color: #b2b2b2;
+    line-height: 34px;
+}
+.vertical-nav dt.dt{
+    margin-top: 8px;
+    line-height: 34px;
+    font-weight: bold;
+}
+.vertical-nav dt.dt span{
+    background-color: #0188cc;
+    color: #fff;
+    
+}
 .vertical-nav{
-    width: 208px;
-    padding-top: 8px;
+    width: 209px;
+    padding-top: 14px;
     font-size: 14px;
     font-family: "宋体";
 }
@@ -230,25 +237,18 @@ a{
 .vertical-nav dt a{
     color: #b2b2b2;
 }
-.vertical-nav a:hover,.vertical-nav dd span,.vertical-nav dt.selected span{
+.vertical-nav a:hover,.vertical-nav dd span{
     background-color: #0188cc;
     color: #fff;
 }
 .vertical-nav dd{
     line-height: 34px;
 }
-.vertical-nav dt{
-    margin-top: 6px;
-    padding-top: 15px;
-    font-weight: bold;
-    color: #b2b2b2;
-    line-height: 34px;
-}
 .vertical-nav dt span{
     display: block;
 }
 .vertical-nav dt,.vertical-nav dd{
-    text-indent: 57px;
+    text-indent: 59px;
 }
 .vertical-nav dt i{
     display: inline-block;
@@ -289,21 +289,31 @@ a{
 .product-quotation-box{
     position: absolute;
     left: 0;right: 0;
-    bottom: 30px;
+    bottom: 29px;
+    text-align: center;
 }
 .product-quotation-box a,.footer a{
     color: #4c4c4c;
 }
 .phone{
     color:#2f80e7;
+    font-weight: bold;
 }
 
 /*页脚（footer）*/
 .footer{
-    padding: 76px 0 30px 0;
+    padding: 68px 0 22px 0;
+}
+.footer a{
+    padding: 0 11px 0 12px;
+}
+.footer div.div1{
+    text-indent: 458px;
+}
+.footer div.div2{
+    text-indent: 432px;
 }
 .footer,.product-quotation-box{
-    text-align: center;
     font-family: "宋体";
     font-size: 12px;
     color: #4d4d4d;
