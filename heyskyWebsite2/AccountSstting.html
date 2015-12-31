@@ -37,17 +37,16 @@
     <meta name="title" content="" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <title>账号绑定</title>
+    <title>账号设置</title>
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/public.css" />
-    <link rel="stylesheet" href="./css/AccountBinding.css" />
+    <link rel="stylesheet" href="./css/AccountSettings.css" />
     <script src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/common.js"></script>
-    <script src="./js/AccountBindings.js"></script>
+    <script src="./js/AccountSetting.js"></script>
 </head> 
 <body>
-    <!-- 头部 -->
     <header>
         <div class="header">
             <div class="width1200 clear"> 
@@ -78,9 +77,9 @@
             <li><i class="user-feedback"></i><span>用户反馈</span></li>
         </ul>
     </div>
-    <!-- 中心 -->
+
     <div class="center">
-        <!-- 左边导航 -->
+        <!-- 左边导航栏 -->
         <div class="center-left">
             <div class="left-nav-box">
                 <dl class="vertical-nav">
@@ -136,54 +135,61 @@
                     </div>
                 </div>
             </div>
-        </div><!-- 左边导航结束 --> 
-        <!-- 右边 -->
+        </div><!-- 左边导航栏结束 -->
+
+        <!-- 右边内容 -->
         <div class="center-right">
-            <!-- 账号绑定 -->
+            <!-- 账号设置 -->
             <div class="set-up">
-                <span>速卖通账号绑定</span>
+                <span>账号设置</span>
             </div>
-            <div id="added">
-                <button id="newBtn">新增绑定</button>
+            <div class="logo-one">
+                <span id="logoName">LOGD：</span>
+                <div id="logoPic"></div>
+                <label for="txt" class="txt-one">公司名称:</label>
+                <input type="text" value="us1103599026" id="txt" />
+                <button id="btn">保存</button>
             </div>
-            <!-- 店铺 -->
-            <div id="shop">
-                <div class="bound-account">
-                    <span>已绑定店铺</span>
-                </div>
-                <!-- 第一个店铺 -->
-                <div id="shop-name">
-                    <span id="numbering">cn5698741236</span>
-                    <input type="text"  id="name" value="Ann's Store" class="name-one" />
-                    <span id="edit">编辑店名</span>
-                </div> 
-                <!-- 第二个店铺 -->
-                <div id="shop-name">
-                    <span id="numbering">cn12345678952369</span>
-                    
-                    <input type="text" value="Ann's Store" id="ipt-name" />
-                    
-                    <span id="save">保存</span>
-                </div>
-                <!-- 第三个店铺 -->
-                <div id="shop-name">
-                    <span id="numbering">cn5692358741</span>
-                    
-                    <input type="text"  id="name" value="Ann's Store" class="name-two" />
-                    <span id="editShopName">编辑店名</span>
-                </div>
-                <span class="signature">
-                    店名同时用于短信店铺签名 &nbsp;&nbsp;示例：[ALIEXPRESS]Mery Christmas
-                </span>
+            <!-- 虚线 -->
+            <span id="dottedLine"></span>
+            <!-- 手机验证 -->
+            <div class="PhoneVerification">
+                <label for="txt-num" class="phone">手机号：</label>
+                <input type="text" value="134599227995" id="txt-num" />
+                <button id="verificationBtn">免费获取验证码</button>
+                
+                <label for="security-code" class="maka">验证码:</label>
+                <input type="text" id="security-code"/>
+                
+                <button id="btn-two">保存</button>
             </div>
-        </div><!-- 右边 -->    
+            <!-- 虚线 -->
+            <span id="dottedLine"></span>
+            <!-- 密码 -->
+            <div id="password">
+                
+                <label for="login-password" class="delu">登录密码：</label>
+                <input type="password" value="123456" id="login-password" />
+                
+                
+                <label for="current-password" class="dang">当前密码:</label>
+                <input type="password" id="current-password" />
+               
+                
+                <label for="nuw-password" class="new-ma">新密码:</label>
+                <input type="password" id="nuw-password" />
+                
+                
+                <label for="confirm-password" class="que">确认密码:</label>
+                <input type="password" id="confirm-password" />
+                
+                <button id="passwordBtn">保存</button>
+            </div>
+        </div><!-- 右边结束 -->
     </div>
-    
+
     <!-- 尾部 -->
     <div class="footer">
-
-        <a>aaaa</a>
-        <input type="file" />
         <div>
             <a class="pr15 br" href="#">产品报价</a>
             <a class="ml15 pr15 br" href="#">常见问题</a>

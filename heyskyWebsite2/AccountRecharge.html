@@ -37,17 +37,16 @@
     <meta name="title" content="" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <title>账号绑定</title>
+    <title>账号充值</title>
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/public.css" />
-    <link rel="stylesheet" href="./css/AccountBinding.css" />
+    <link rel="stylesheet" href="./css/AccountRecharge.css" />
     <script src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/common.js"></script>
-    <script src="./js/AccountBindings.js"></script>
+    <script src="./js/AccountRecharge.js"></script>
 </head> 
 <body>
-    <!-- 头部 -->
     <header>
         <div class="header">
             <div class="width1200 clear"> 
@@ -78,9 +77,7 @@
             <li><i class="user-feedback"></i><span>用户反馈</span></li>
         </ul>
     </div>
-    <!-- 中心 -->
     <div class="center">
-        <!-- 左边导航 -->
         <div class="center-left">
             <div class="left-nav-box">
                 <dl class="vertical-nav">
@@ -136,54 +133,133 @@
                     </div>
                 </div>
             </div>
-        </div><!-- 左边导航结束 --> 
+        </div>
         <!-- 右边 -->
         <div class="center-right">
             <!-- 账号绑定 -->
             <div class="set-up">
-                <span>速卖通账号绑定</span>
+                <span>账户充值</span>
             </div>
-            <div id="added">
-                <button id="newBtn">新增绑定</button>
+            <!-- 充值服务 -->
+            <div class="recharge-one">
+                <ul>
+                    <li class="current">充值服务</li>
+                    <li>充值记录</li>
+                </ul>
             </div>
-            <!-- 店铺 -->
-            <div id="shop">
-                <div class="bound-account">
-                    <span>已绑定店铺</span>
+            <!-- 优惠详情 -->
+            <div class="service">
+                <!-- 优惠1 -->
+                <div class="box">
+                    <div class="preferential">
+                        <div class="yelloBox"></div>
+                        <h3 class="h">
+                            <img src="images/man_10.png" alt="" />
+                        </h3>
+                        <span class="p1"><img src="images/song.png" height="20" width="144" alt="" />
+                        </span>
+                        <span class="s2">1、充值1000元立送100元;</span>
+                        <span class="s3">2、优质短信通道。</span>
+                        <button id="btnOne">立刻充值</button>
+                        <div class="LimitedTime">
+                            <img src="images/xianshi.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- 优惠2 -->
+                    <div class="preferential">
+                        <div class="yelloBox"></div>
+                        <h3 class="h2">
+                            <img src="images/man_12.png" alt="" />
+                        </h3>
+                        <span class="p1"><img src="images/song.png" height="20" width="144" alt="" />
+                        </span>
+                        <span class="s2">1、充值5000元立送800元;</span>
+                        <span class="s3">2、优质短信通道,更短延时更高</span>
+                        <span class="three">到达率;</span><br />
+                        <span class="four">3、金牌客服一对一服务</span>
+                        <button id="btnOne">立刻充值</button>
+                        <div class="LimitedTime">
+                            <img src="images/xianshi.png" alt="" />
+                        </div>
+                    </div>
+                <!-- 优惠3 -->
+                    <div class="preferential">
+                        <div class="yelloBox"></div>
+                        <h3 class="h3">
+                            <img src="images/man_07.png" alt="" />
+                        </h3>
+                        <span class="p1"><img src="images/song.png" height="20" width="144" alt="" />
+                        </span>
+                        <span class="s2">1、充值10000元立送2000元;</span>
+                        <span class="s3">2、优质短信通道,短信优先发送权；</span>
+                        <span class="three">到达率时更高到达率;</span><br />
+                        <span class="four">3、金牌客服一对一服务</span>
+                        <button id="btnOne">立刻充值</button>
+                        <div class="LimitedTime">
+                            <img src="images/xianshi.png" alt="" />
+                        </div>
+                    </div>
                 </div>
-                <!-- 第一个店铺 -->
-                <div id="shop-name">
-                    <span id="numbering">cn5698741236</span>
-                    <input type="text"  id="name" value="Ann's Store" class="name-one" />
-                    <span id="edit">编辑店名</span>
-                </div> 
-                <!-- 第二个店铺 -->
-                <div id="shop-name">
-                    <span id="numbering">cn12345678952369</span>
-                    
-                    <input type="text" value="Ann's Store" id="ipt-name" />
-                    
-                    <span id="save">保存</span>
+                <div class="box" style="display:none">
+                  <table width="958" height="140" id="tab-one">
+                      <tr class="first-row">
+                          <th class="first-column">交易号</th>
+                          <th class="second-column">充值金额</th>
+                          <th class="third-column">充值时间</th>
+                          <th class="fourth-column">订单状态 </th>
+                          <th class="fifth-column">备注 </th>
+                      </tr>
+                      <tr>
+                          <td>14369379906010</td>
+                          <td>300.00</td>
+                          <td>2015-05-28 16:05:13</td>
+                          <td>订单成功 </td>
+                          <td>首次充值成功即送50元 </td>
+                      </tr>
+                      <tr>
+                          <td>支付宝订购</td>
+                          <td>5000.00</td>
+                          <td>2015-05-27 16:15:13</td>
+                          <td>订单失败 </td>
+                          <td>充值0.01 </td>
+                      </tr>
+                      <tr>
+                          <td>支付宝订购</td>
+                          <td>30000.00</td>
+                          <td>2015-05-26 16:05:13</td>
+                          <td><button id="recharge-btn">立刻充值</button></td>
+                          <td>充值0.01</td>
+                      </tr>
+                  </table>  
                 </div>
-                <!-- 第三个店铺 -->
-                <div id="shop-name">
-                    <span id="numbering">cn5692358741</span>
-                    
-                    <input type="text"  id="name" value="Ann's Store" class="name-two" />
-                    <span id="editShopName">编辑店名</span>
-                </div>
-                <span class="signature">
-                    店名同时用于短信店铺签名 &nbsp;&nbsp;示例：[ALIEXPRESS]Mery Christmas
-                </span>
             </div>
-        </div><!-- 右边 -->    
+            <!-- 自定义充值 -->
+            <div class="money">
+                <div>
+                    <label for="custom-txt" class="txt-num">自定义充值金额：</label>
+                    <input type="text" value="100元" id="custom-txt" />
+                    <button id="atOnceBtn">立刻充值</button>
+                </div>
+                <!-- 金额列表 -->
+                <table width="601" height="67" id="tab">
+                    <tr>
+                        <th><a href="#">100元</a></th>
+                        <th><a href="#">200元</a></th>
+                        <th><a href="#">500元</a></th>
+                        <th><a href="#">1000元</a></th> 
+                    </tr>
+                    <tr>
+                        <td><a href="#">2000元</a></td>
+                        <td><a href="#">5000元</a></td>
+                        <td><a href="#">10000元</a></td>
+                        <td><a href="#">50000元</a></td> 
+                    </tr>
+                </table>
+            </div>   
+        </div><!-- 右边 -->
     </div>
-    
     <!-- 尾部 -->
     <div class="footer">
-
-        <a>aaaa</a>
-        <input type="file" />
         <div>
             <a class="pr15 br" href="#">产品报价</a>
             <a class="ml15 pr15 br" href="#">常见问题</a>

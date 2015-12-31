@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- 优先使用IE最新版本和Chrome -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- 百度禁止转码 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit" />
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <meta name="format-detection" content="telephone=no,email=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <!-- 删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 设置苹果工具栏颜色 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="title" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>客户分析</title>
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/public.css" />
+    <link rel="stylesheet" href="./css/CustomerAnalysis.css" />
+    <script src="./js/jquery-2.1.4.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/CustomerAnalys.js"></script>
+</head> 
+<body>
+    <header>
+        <div class="header">
+            <div class="width1200 clear"> 
+                <h1  class="logo-box le"><i></i>专业国际短信</h1>
+                <div class="ri">
+                    <div class="userinfo-box le">
+                        <div class="head-portraits">
+                            <img src="./images/header-nav-footer/head-portraits.png" alt="头像">
+                        </div>
+                        <div class="mt5 member-levels-box">
+                            <span class="member-levels">普通会员</span>
+                        </div>
+                        <div class="mt5">
+                            <a class="username" href="#">us1103599025</a>
+                        </div>
+                    </div>
+                    <a class="recharge le" href="#"></a>
+                    <a class="quit le" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </header><!--头部 -->
+    <!--根据需要剪切li来实现右侧边栏-->
+    <div class="online-consultant-box">
+        <ul class="list-no">
+            <li><i class="online-consultant"></i><span>在线咨询</span></li>
+            <li><i class="qq-service"></i><span>QQ客服</span></li>
+            <li><i class="user-feedback"></i><span>用户反馈</span></li>
+        </ul>
+    </div>
+    <div class="center">
+        <!-- 左边内容 -->
+        <div class="center-left">
+            <div class="left-nav-box">
+                <dl class="vertical-nav">
+                    <dt class="">
+                        <a href="http://localhost/testGit/heyskyWebsite/home.html"><i class="home-smallIcon"></i>首页
+                        </a>
+                    </dt>
+                    <dt class="bt">
+                        <span>
+                            <i class="wireless-marketing"></i>无线营销
+                        </span>
+                    </dt>
+                        <dd><span>创建营销</span></dd>
+                        <dd><a href="#">营销管理</a></dd>
+                    <dt class="bt">
+                        <span>
+                            <i class="brainpower-smallIcon"></i>智能提醒
+                        </span>
+                    </dt>
+                        <dd><a href="#">提醒设置</a></dd>
+                        <dd><a href="#">发送消息</a></dd>
+                    <dt class="bt">
+                        <span>
+                            <i class="customer-management"></i>客户管理
+                        </span>
+                    </dt>
+                        <dd><a href="#">名录导入</a></dd>
+                        <dd><a href="#">名录维护</a></dd>
+                    <dt class="bt">
+                        <span>
+                            <i class="data-img"></i>数据分析
+                        </span>
+                    </dt>
+                        <dd><a href="#">效果分析</a></dd>
+                        <dd><a href="#">客户分析</a></dd>
+                    <dt class="bt">
+                        <span>
+                            <i class="system-setup"></i>系统设置
+                        </span>
+                    </dt>
+                        <dd><a href="#">账户充值</a></dd>
+                        <dd><a href="#">日报设置</a></dd>
+                        <dd><a href="#">速卖通绑定</a></dd>
+                        <dd><a href="#">帐号设置</a></dd>
+                </dl>
+                <div class="product-quotation-box">
+                    <div>
+                        <a class="pr15 br" href="#">产品报价</a>
+                        <a class="ml15" href="#">常见问题</a>
+                    </div>
+                    <div class="mt10">速卖通旺旺交流群：
+                        <span class="phone">1563765460</span>
+                    </div>
+                </div>
+            </div>
+        </div><!-- 左边结束 -->
+
+        <!-- 右边内容 -->
+        <div class="center-right">
+            <div id="top"><!-- 客户分析 -->
+                <span>客户分析</span>
+                <div class="account-switching"><!-- 账号 -->
+                    <input type="text" value="切换账号" id="account-txt"/>
+                    <button id="switching-btn"></button>
+                    <div id="account-num-select">
+                        <ul>
+                            <li>123456</li>
+                            <li>931283</li>
+                            <li>495515751</li>
+                            <li>9282181</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 国家分布 -->
+            <div class="data-analysis">
+                <div class="added">国家分布</div>
+                <!-- 时间 -->
+                <div class="timer">
+                    <span>时间</span>
+                    <ul class="first-ul">
+                        <li class="timer-current">今天</li>
+                        <li>7日</li>
+                        <li>14日</li>
+                        <li>30日</li>
+                        <li>
+                            <select name="" class="sel" size="1">
+                                <option value="2015-09-30至2015-10-29">2015-09-30至2015-10-29
+                                </option>
+                                <option value="2015-09-30至2015-10-29">2015-09-30至2015-10-29
+                                </option>
+                                <option value="2015-09-30至2015-10-29">2015-09-30至2015-10-29
+                                </option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            <!-- 详细数据 -->
+                <div class="countries">
+                    <div class="distributed">
+                        <div class="garden"></div>
+                        <span class="unit">(单位/条)</span>
+                        <div class="country">
+                            <ul>
+                                <li><span></span>俄罗斯</li>
+                                <li>895</li>
+                                <li>22%</li>
+                            </ul>
+                            <ul>
+                                <li><span id="LightBlue"></span>巴西</li>
+                                <li>755</li>
+                                <li>10%</li>
+                            </ul>
+                            <ul>
+                                <li><span id="purple"></span>美国</li>
+                                <li>505</li>
+                                <li>8%</li>
+                            </ul>
+                            <ul>
+                                <li><span id="blue"></span>智利</li>
+                                <li>412</li>
+                                <li>7%</li>
+                            </ul>
+                            <ul>
+                                <li><span id="darkGreen"></span>以色列</li>
+                                <li>312</li>
+                                <li>6%</li>
+                            </ul>
+                        </div>
+                        <div class="country-two" >
+                            <ul>
+                                <li><span></span>西班牙</li>
+                                <li>895</li>
+                                <li>22%</li>
+                            </ul>
+                            <ul>
+                                <li><span id="LightBlue"></span>法国</li>
+                                <li>755</li>
+                                <li>10%</li>
+                            </ul>
+                            <ul>
+                                <li><span id="red"></span>德国</li>
+                                <li>505</li>
+                                <li>8%</li>
+                            </ul>
+                            <ul>
+                                <li><span id="blue"></span>英国</li>
+                                <li>412</li>
+                                <li>7%</li>
+                            </ul>
+                            <ul>
+                                <li><span id="darkGreen"></span>其他国家</li>
+                                <li>312</li>
+                                <li>6%</li>
+                            </ul>
+                        </div>    
+                    </div>
+                    <div class="map">
+                        <div class="australia">
+                            <p>澳大利亚</p>
+                            <p>客户：20人</p>
+                            <p>占比:6%</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <!-- 购买高峰时段  -->
+            <div class="peak-hours">
+                <div class="added">购买高峰时段</div>
+                <div class="timer">
+                    <span>时间</span>
+                    <ul class="senced-ul">
+                        <li class="timer-current">今天</li>
+                        <li>昨天</li>
+                        <li>
+                            <select name="" class="sel" size="1" id="ect" >
+                                <option value="2015-11-04">2015-11-04
+                                </option>
+                                <option value="2015-11-04">2015-11-04
+                                </option>
+                                <option value="2015-11-04">2015-11-04
+                                </option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="trend"></div>
+            </div>
+            <!-- 新老客户 -->
+            <div class="client">
+                <div class="added">新老客户统计</div>
+                <div class="timer">
+                    <span>时间</span>
+                    <ul class="senced-ul">
+                        <li class="timer-current">今天</li>
+                        <li>7日</li>
+                        <li>14日</li>
+                        <li>30日</li>
+                        <li>
+                            <select name="" class="sel" size="1" id="ect">
+                                <option value="2015-11-04">2015-11-04
+                                </option>
+                                <option value="2015-11-04">2015-11-04
+                                </option>
+                                <option value="2015-11-04">2015-11-04
+                                </option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="new-customer">
+                    <span class="left">新客户</span>
+                    <span class="right">老客户</span>
+                    <div class="new"></div>
+                    <div class="old"> </div>
+                    <div class="orders-left">产生订单量：<span>34笔</span></div>
+                    <div class="orders-right">产生订单量：<span>5笔</span></div>
+                    <h3 class="new-left">79.5%</h3>
+                    <h3 class="old-right">20.5%</h3>
+                </div>
+            </div>
+        </div><!-- 右边结束 -->
+    </div>
+    <!-- 尾部 -->
+    <div class="footer">
+        <div>
+            <a class="pr15 br" href="#">产品报价</a>
+            <a class="ml15 pr15 br" href="#">常见问题</a>
+            <a class="ml15 pr15 br" href="#">隐私条款</a>
+            <a class="ml15" href="#">联系我们</a>
+        </div>
+        <div class="mt10">2015 © 厦门闪通网络技术有限公司( 客服电话：0592-3752092)
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+
+.home-small-icon,.noti-fications i,.battlelog-details i{
+	position: absolute;
+	background-image: url(../images/home/home-small-icon.png);
+}
+.position-top{
+	top: 50%;
+	margin-top: -105px;
+}
+/*半透明遮照层*/
+.protective-layer{
+	/*display: none;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.4);
+	z-index: 1000;
+}
+.material-perfect{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 520px;
+	height: 428px;
+	margin-left: -260px;
+	border:1px solid #ccc;
+	background-image: url(../images/home/material-perfect-background.png);
+	color: #4c4c4c;
+	font-family: "宋体";
+}
+.material-perfect h2{
+	text-indent: 21px;
+	line-height: 38px;
+    border-bottom: 1px solid #ccc;
+    background-color: #e9e9e9;
+    font-size: 14px;
+}
+.material-perfect > p{
+	margin-top: 20px;
+	color: red;
+	font-size: 12px;
+	text-indent: 40px;
+}
+.material-input{
+	margin-bottom: 20px;
+}
+.material-input1{
+	margin-bottom: 22px;
+}
+.material-input,.material-input1,.material-input2{
+	padding-right: 221px;
+	text-align: right;
+}
+.material-input label,.material-input1 label,.material-input2 label{
+	display: inline-block;
+	position: absolute;
+	width: 77px;
+	margin: 9px 0 0 -78px;
+}
+.material-input input,.material-input1 input,.material-input2 input{
+	width: 180px;
+	height: 30px;
+}
+.material-form{
+	margin-top: 20px;
+}
+.material-form label{
+	font-size: 14px;
+}
+.acquire-verification{
+	position: absolute;
+	padding: 0 18px;
+	margin-left: 10px;
+	background-color: #f1881a;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+	line-height: 30px;
+}
+.open-remind label{
+	font-size: 12px;
+}
+.open-remind{
+	margin-top: 6px;
+	text-indent: 47px;
+}
+.submit-box{
+	margin: 16px 0 0 230px;
+}
+.submit-box input{
+	width: 60px;
+	height: 32px;
+	border:none;
+	background-color: #0188cc;
+	color: #fff;
+}
+
+/*首页内容部分（home-conter）*/
+.c-4d{
+	color: #4c4c4c;
+}
+.home{
+    padding-bottom: 29px;
+}
+.home-conter-box{
+	padding: 21px 15px 0;
+}
+.focus-Picture{
+	width: 658px;
+	height: 240px;
+	line-height: 0;
+}
+.send-Messages-box{
+	width: 280px;
+	height: 240px;
+	border: 1px solid #dedede;
+	color: #4c4c4c;
+	font-family: "宋体";
+}
+.send-Messages{
+	margin:19px 10px 0;
+}
+.send-Messages i{
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 28px;
+	margin:-29px 0 0 85px;
+	background: url(../images/home/send-Messages-img.png);
+}
+.phone-number-input,.send-Messages select,.send-Messages textarea{
+	border: 1px solid #dedede;
+	color: #4c4c4c;
+}
+.send-Messages-box h2,.account-detail-box h3{
+	border-bottom: 1px solid #dedede;
+	background-color: #f7f7f7;
+	line-height: 30px;
+	font-size: 14px;
+	text-indent: 10px;
+}
+.height30,.send-Messages select,.phone-number-input,.send-note-submit{
+	height: 30px;
+}
+
+.send-Messages select{
+	width: 106px;
+}
+.phone-number-input{
+	width: 142px;
+	text-indent: 10px;
+}
+.send-Messages textarea{
+	width: 258px;
+	height: 90px;
+	resize: none;
+}
+.send-note-submit-box{
+	margin-top: 11px;
+	text-align: center;
+}
+.send-note-submit{
+	width: 100px;
+	border: none;
+	background-color: #0188cc;
+	color: #fff;
+}
+
+/*通告（noti-fications）*/
+.noti-fications-box{
+	margin-top: 30px;
+	font-family: "宋体";
+}
+.noti-fications{
+	padding-bottom: 10px;
+	font-size: 13px;
+	line-height: 32px;
+	text-indent: 10px;
+}
+.noti-fications a{
+	color: #4c4c4c;
+}
+.noti-fications li{
+	position: relative;
+	height: 32px;
+	margin-bottom: 20px;
+	border: 1px solid #dedede;
+	background-color: #ffd9b2;
+}
+.noti-fications i{
+	top: 5px;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	background-position: 0 -120px;
+	cursor: pointer;
+}
+
+/*账号详情*/
+.account-detail-box{
+	border: 1px solid #dedede;
+    padding: 19px 10px 54px;
+}
+.switch-account-box{
+	padding-bottom: 10px;
+	text-align: right;
+}
+.switch-account-box i{
+	display: inline-block;
+	position: absolute;
+	width: 29px;
+	height: 30px;
+	margin:1px 0 0 -31px;
+	background: url(../images/home/switch-account-img.png);
+}
+.switch-account{
+	width: 168px;
+	height: 32px;
+	border: 1px solid #dedede;
+	color: #b2b2b2;
+	font-size: 13px;
+}
+.battlelog-details{
+	width: 936px;
+	margin-right: -1px;
+	padding: 19px 10px 0;
+	color: #fff;
+}
+.battlelog-details p span{
+	font-size: 36px;
+	font-family: "Arial";
+}
+.battlelog-details .li1{
+	background-color: #2f80e7;
+}
+.battlelog-details .li2{
+	background-color: #564aa3;
+}
+.battlelog-details .li3{
+	background-color: #2b957a;
+}
+.battlelog-box{
+	border: 1px solid #dedede;
+	padding-bottom: 40px;
+}
+.battlelog-details li{
+	position: relative;
+    width: 292px;
+    padding-right: 97px;
+    font-size: 18px;
+    text-indent: 30px;
+}
+.battlelog-details .li1 h4,.battlelog-details .li1 p{
+	background-color: #5d9cec;
+}
+.battlelog-details .li2 h4,.battlelog-details .li2 p{
+	background-color: #7266ba;
+}
+.battlelog-details .li3 h4,.battlelog-details .li3 p{
+	background-color: #37bc9b;
+}
+.battlelog-details h4{
+	padding-top: 19px;
+}
+.battlelog-details p{
+	padding-top: 17px;
+	padding-bottom: 8px;
+}
+.battlelog-details i{
+	display: inline-block;
+	top: 29px;
+	right: 25px;
+	width: 48px;
+	height: 40px;
+}
+.new-indent-img{
+	background-position: -40px 0;
+}
+.new-client-img{
+	background-position: -40px -40px;
+}
+.note-send-img{
+	background-position: -40px -80px;
+}
+.flow-diagram{
+	width: 934px;
+	height: 416px;
+}
+/**/
+.client-curve{
+	border: 1px solid #dedede;
+}
